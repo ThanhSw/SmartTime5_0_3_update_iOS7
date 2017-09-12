@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3AF107A-183A-4C05-B9CE-758FDED3BF4E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SmartTime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C616BA6C-D9F7-40E1-BE88-2F186F3E4D19</key>
+		<string>https://leftcoastlogic.unfuddle.com/svn/leftcoastlogic_smarttime1/SmartTime4_0_3</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SmartTime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C616BA6C-D9F7-40E1-BE88-2F186F3E4D19</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C616BA6C-D9F7-40E1-BE88-2F186F3E4D19</key>
+		<string>https://leftcoastlogic.unfuddle.com/svn/leftcoastlogic_smarttime1</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://leftcoastlogic.unfuddle.com/svn/leftcoastlogic_smarttime1/SmartTime4_0_3/SmartTime.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C616BA6C-D9F7-40E1-BE88-2F186F3E4D19</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C616BA6C-D9F7-40E1-BE88-2F186F3E4D19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SmartTime4_0_3_update_iOS6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

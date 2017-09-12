@@ -1,0 +1,7 @@
+<html>
+<body>
+<p><font size="4">
+A smaller sync window will give you better performance. For details, visit <a href='http://www.leftcoastlogic.com/sync'>http://www.leftcoastlogic.com/sync</a>
+</p>
+</body>
+</html>

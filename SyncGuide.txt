@@ -1,0 +1,91 @@
+<html>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #333333;
+}
+a:link {
+	color: #00FFFF;
+}
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+}
+-->
+</style>
+<body>
+<div align="center"><span class="style2">Sync Quick Start </span></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2"><span class="style1">Google Account</span></td>
+  </tr>
+  <tr>
+    <td width="7%">&nbsp;</td>
+    <td width="93%"><p class="style1">
+      If you do not already have a Google Calendar account, please create one at <a href='http://www.google.com/calendar'>http://www.google.com/calendar</a>.</p>
+    <p class="style1">Tap the <strong>Check Validity</strong> button to confirm your settings and connection.<br>
+      <br>
+    </p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><span class="style1">Sync Type</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><span class="style1">
+    We recommend two-way for most purposes.<br>
+    <br>
+    </span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><span class="style1">Map</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p class="style1">
+      Use <strong>SmartSync</strong> to automatically map the Events of your selected Projects to individual Google Calendars. You can choose to inherit the names of the GCal calendars. This is handy for making sure your calendars and projects both have the same names.</p>
+    <p class="style1">Use <strong>ExpertSync</strong> to map manually. You can map both Events and Tasks from your  Projects to individual Google Calendars. Be aware that SmartTime takes control of all Tasks and will do the same with any Google Calendars that you have mapped to your Tasks!<br>
+      <br>
+    </p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><span class="style1">Choose Sync Window</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><span class="style1">
+    Select a Sync Window. The default is &quot;this week.&quot;  This maximizes the performance of SmartTime by keeping a minimum of data on your iPhone. You may wish to gradually broaden it, depending on the size of your GCal database and your performance requirements.<br>
+    <br>
+    </span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><span class="style1">For more information, visit our online <a href="http://leftcoastlogic.com/sync">Sync Guide</a> .</span></td>
+  </tr>
+</table>
+<p class="style1">&nbsp;</p>
+<p class="style1">&nbsp;</p>
+<p class="style1"><br/>
+</p>
+<p class="style1">&nbsp;</p>
+<blockquote>
+  <p class="style1">&nbsp;</p>
+</blockquote>
+<p class="style1">&nbsp;</p>
+<blockquote>
+  <p class="style1">&nbsp;</p>
+</blockquote>
+<p class="style1">&nbsp;</p>
+<blockquote>
+  <p class="style1">&nbsp;</p>
+</blockquote>
+<p class="style1">&nbsp;</p>
+</body>
+</html>

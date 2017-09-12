@@ -1,0 +1,7 @@
+<html>
+<body>
+<p><font size="4">
+To receive Google alerts, you need to have a Google Calendar account that is configured to send messages to your phone.  For more information, see <a href='http://www.leftcoastlogic.com/sync'>http://www.leftcoastlogic.com/sync</a>
+</p>
+</body>
+</html>

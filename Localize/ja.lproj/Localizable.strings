@@ -1,0 +1,589 @@
+"_sun_image"="Work.png";
+"_moon_image"="Home.png";
+"_re_image"="repeat.png";
+"_re_plus_image"="repeatPlus.png";
+"_re_exc_image"="exception.png";
+"_ade_image"="ADE.png";
+"_alert_image"="bell.png";
+"movingTaskPassItsDeadLineAlertText"="このタスクを移動するとその過去の締切りと競合します。締切りを変更しますか？";
+"movingTaskPassOthersDeadLineAlertText"="これは既存のタスクの締切りを越えてしまいます。これらの締切りを自動的に変更しますか？";
+"movingTaskIntoThePast"="申し訳ありません、過去へタスクを移動できません。";
+"movingTaskPastToPast"="移動する前にこのタスクの締切りを変更しなければなりません。";
+"actionMakesItsPassDeadLineText"="締切りが合いません。忙しすぎますか？締切りを変更しますか？";
+"actionMakesOthersPassDeadlinesText"="これは既存のタスクの締切りを越えてしまいます。これらの締切りを自動的に変更しますか？";
+"startTimeIsLaterEndTimeText"="開始日の後に生じる終了日を選択してください";
+"importTaskSuccessText"="インポート完了";
+"deferTaskPassItsDeadlineText"="このタスクを延長すると締切りを越えてしまいます。締切りを変更しますか？";
+"noTaskLocationForLaunchMapText"="申し訳ありません！このタスクはマップを実行するロケーションがありません";
+"noEventLocationForLaunchMapText"="申し訳ありません！このイベントはマップを立ち上げるロケーションがありません。";
+"applyNewSettingMakesDtasksPassDeadlineText"="これを適用すると既存のタスクが締切りを越えてしまいます。それでも適用したい場合は自動バンプ締切りを変更してください！";
+"taskEvenWithoutTitleText"="タイトルを追加してください。";
+"newDTaskWithDeadlineInThePastText"="申し訳ありません、締切りは過去に設定出来ません。";
+"durationIsTooLongText"="申し訳ありません、タスクの最高許容期間は24時間です。";
+"overMaxTrialTaskText"="申し訳ありません、無料SmartTimeバージョンには5以上のタスク／イベントを追加することは出来ません。全機能を使用するには、フルバージョンのSmartTimeをダウンロードしてください。";
+"restoringSuccessText"="バックアップ復旧完了";
+"deleteREText"="このイベントだけ、シリーズ全てのイベント、またはシリーズのこれと将来のイベントを削除しますか？";
+"deleteREAllAndFollowText"="シリーズ中の全イベントまたは将来のイベントを削除しますか？";
+"deleteConfirmText"="削除したタスク／イベントは復旧出来ません！本当にいいですか？";
+"editREInstanceText"="このイベントのみ、シリーズの全てのイベント、またはこれとシリーズ中の将来のイベントを変更しますか？";
+"wrongChangeREText"="申し訳ありません、インスタンスの繰り返しイベントをタスクへ変更出来ません。";
+"RETimesEditText"="繰り返し回数を入力してください。または'永久にリピート'を選択、または戻って終了日を選択してください。";
+"introductionText"="SmartTimeベータテスト時間が過ぎました。製品テストにご協力頂き誠に有難うございました。フルバージョンのSmartTimeプラスへアップグレードしますか？";
+"introductionLiteText"="全iPhoneとGoogleインテグレーション、さらにGoogleカレンダーSyncのためにST Tasksにアップグレードする。\nフル統合化、同期化と詳細な日/週/月カレンダーのためにST Proへアップグレードする。\n詳細情報は\"アップグレード\" アイコンをタップするだけです。";
+"introductionBasicText"="\"+\"をタップするだけでタスクとイベントの追加を開始します。\nGoogle Syncと他の機能を設定するのは\"ツール\"アイコンをタップするだけです。\n製品についてさらに知るには弊社ST Tasksページを御覧ください。\n\n有難うございます、そして楽しんでください！\nレフトコーストロジックチーム。";
+"REMakeTaskNotFitText"="申し訳ありません、これはタスクを適合させなくします、何故ならそれらの期間がこの（そしておそらく他の）イベントの長さと繰り返しと競合してしまうためです。";
+"taskNotBeFitByREText"="このタスク（または既存のタスク）の期間は複数の繰り返しイベントのためスケジュールと適合出来ません。 このタスク（または既存のタスク）の期間を変更、または繰り返しイベントを変更/移動してみてください。";
+"cancelText"="キャンセル";
+"autoText"="自動";
+"manualText"="マニュアル";
+"okText"="OK";
+"manuallyText"="マニュアルで";
+"automaticallyText"="自動的に";
+"dismissText"="棄却";
+"promptMeText"="促進する";
+"yesText"="はい";
+"noText"="いいえ";
+"editRETitleText"="繰り返しイベントを編集";
+"deleteREtitleText"="繰り返しイベントを削除";
+"onlyInsText"="このインスタンスのみ";
+"allEventsText"="シリーズの全イベント";
+"allInsFollowText"="以下の通り";
+"maybeText"="たぶん";
+"expiredBetaTestingText"="SmartTimeベータテストが満了しました！";
+"restoreBrokenLinkErrorMessageText"="申し訳ありません、バックアップされたデーターはリンク内部が壊れているため修復出来ません！";
+"errorBackupCanNotLaunchMailAppText"="申し訳ありません、SmartTimeがメールアプリを立ち上げることが出来なかったため、データーバックアップが完了出来ませんでした！";
+"errorSharingCanNotLaunchMailAppText"="申し訳ありません、SmartTimeがメールアプリを立ち上げることが出来なかったため、データー共有が完了出来ませんでした！";
+"allWorkDayText"="オールワーク平日";
+"allHomeDayText"="オールホーム平日";
+"allDayText"="終日";
+"backupButtonText"="バックアップ";
+"backupCellTileText"="Eメールへデーターをバックアップ";
+"backupNotesText"="この機能はバージョン2.3でアップデートされており、遡って適合させることは不可能です。 従って、2.3より前のバージョンで作成したものは修復することが出来ません。 しかしながら、2.3へアップグレードする時に既存のデーターベースは何も変更されないため、アップグレード後にバックアップを作成可能です。";
+"backupNotesLiteText"="これによりデーターと設定をEメールにバックアップ可能となり、そしてSmartTime Plusバージョン3.0以上へそれを移し替えることが出来ます。 SmartTime Plusをインストール後Eメールのハイパーリンクをタップするだけです。";
+"doneButtonText"="完了";
+"aText"="A";
+"bText"="B";
+"ccText"="C";
+"dText"="D";
+"eText"="E";
+"fText"="F";
+"gText"="G";
+"hText"="H";
+"iText"="I";
+"jText"="J";
+"kText"="K";
+"lText"="L";
+"mText"="M";
+"nText"="N";
+"oText"="O";
+"pText"="P";
+"qText"="Q";
+"rText"="R";
+"sText"="S";
+"tText"="T";
+"uText"="U";
+"vText"="V";
+"wText"="W";
+"xText"="X";
+"yText"="Y";
+"zText"="Z";
+"janText"="1月";
+"febText"="2月";
+"marText"="3月";
+"aprText"="4月";
+"mayText"="5月";
+"junText"="6月";
+"julText"="7月";
+"augText"="8月";
+"sepText"="9月";
+"octText"="10月";
+"novText"="11月";
+"decText"="12月";
+"sunText"="日曜";
+"monText"="月曜";
+"tueText"="火曜";
+"wedText"="水曜";
+"thuText"="木曜";
+"friText"="金曜";
+"satText"="土曜";
+"amText"="AM";
+"pmText"="PM";
+"minText"="分";
+"hrsText"="時間";
+"popupTitleText"="ポップアップ";
+"emailTitleText"="Eメール";
+"contextWDayCellText"="平日";
+"contextWEndCellText"="週末";
+"minutesText"="分";
+"hoursText"="時間";
+"daysText"="日";
+"weeksText"="週";
+"worktimeViewTitleText"="ワークタイム";
+"hometimeViewTitleText"="ホームタイム";
+"eventtimeViewTitleText"="イベント時間";
+"deadlineText"="締切り";
+"weekdayStartCellText"="平日スタート";
+"weekdayEndCellText"="平日終了";
+"weekendStartCellText"="週末スタート";
+"weekendEndCellText"="週末終了";
+"todayText"="今日";
+"tomorrowText"="明日";
+"twoWeeksText"="2週間";
+"specifiedText"="指定した";
+"startsText"="スタート";
+"endsText"="終了";
+"repeatText"="繰り返し";
+"untilText"="まで";
+"foreverText"="永遠に";
+"generalSettingSectionText"="一般";
+"smarttimeSettingSectionText"="Smart Time";
+//"defaultValuesSettingSectionText"="新タスク用設定";
+"defaultValuesSettingSectionText"="タスクの新規追加用設定";
+//"settingBackgroundStyleText"="バックグラウンドスタイル";
+"settingBackgroundStyleText"="背景";
+"settingProjectNameText"="プロジェクト名";
+"settingWorkTimeText"="ワークタイム";
+"settingHomeTimeText"="ホームタイム";
+"settingAutoBumpTaskText"="自動バンプタスク";
+"settingAutoBumpTaskONText"="オン: アプリスタートアップ時に、未完了のタスクが自動的に再スケジュールされます。";
+"settingAutoBumpTaskOFFText"="オフ:アプリのスタートアップの間、未完了のタスクは自動的に組み直されます。";
+"settingAutoBumpDeadlineText"="自動バンプ締切り";
+"settingAutoBumpDeadlineONText"="オン: タスクの変更や作成をしている時にタスクの締切りは自動的に延長されます。";
+"settingAutoBumpDeadlineOFFText"="オフ： タスクの変更や作成をしている時に締め切りが過ぎてしまうのをユーザーへ警告する。";
+//"cleanOldDateTitleText"="より古いデーターを消去する";
+"cleanOldDateTitleText"="以前のデータを消去";
+"neverText"="決して";
+"durationText"="存続期間";
+"contextText"="コンテキスト";
+"projectText"="プロジェクト";
+//"editProjectText"="プロジェクトの編集";
+"locationText"="ロケーション";
+"sortedByaddressText"="アドレスで分類する";
+"sortedByContactText"="連絡先で分類する";
+"doTodayText"="今日する";
+"nothingToDoText"="何もすることがありませんか？";
+"nothingDoneText"="今日は何もしていません！";
+"lclSeverErrorMsg"="SmartTimeはLCLサーバーに接続しようとしましたが不可能でした。 おそらく一時的なサーバー不具合です;数分内にイベントアラートを再更新してみてください。 もし問題が解決しない場合は、supportleftcoastlogic.comへ連絡してください。我々が解決致します。";
+"deleteAlertFailedText"="削除アラート失敗！";
+"updateAlertFailedText"="アップデートアラート失敗！";
+"dayUnitText"="（日）";
+"titleText"="タイトル";
+"notesText"="注記";
+"gcalNameText"="GCal名";
+"mapGCalToProjectErrorTitleText"="GCalをプロジェクトへ位置付け出来ません：";
+"mapGCalToProjectErrorMEssageText"="申し訳ありません！ このGCalの名前は他のプロジェクトで既に使われています。 マッピングには他の名前を選択してください。";
+"untilDueText"="期限まで";
+"repeatTimesText"="繰り返し時間";
+"repeatForeverText"="ずっと繰り返す";
+"doneHistoryText"="完了履歴";
+"repeatOnText"="に繰り返す";
+"sunOptText"="S";
+"monOptText"="M";
+"tueOptText"="T";
+"wedOptText"="W";
+"thuOptText"="T";
+"friOptText"="F";
+"satOptText"="S";
+"repeatByText"="で繰り返す";
+"dayOfMonthText"="月の日付";
+"dayOfWeekText"="週の日付";
+"repeatEveryText"="常に繰り返す";
+"repeatTypeText"="繰り返しタイプ";
+"contextsText"="コンテキスト";
+"stylesText"="スタイル";
+"weekUnitText"="週";
+"monthUnitText"="月";
+"yearUnitText"="年";
+"oneWaySTToGCalMsgText"="これはデーターをSmartTimeからGoogleカレンダーへ保存します。";
+"twoWaySTAndGCalMsgText"="これはSmartTime内のデーターを2つの方法でGoogleカレンダーへ同期化します。";
+"oneWayGCalToSTMsgText"="これはGoogleカレンダーからSmartTimeへデーターを修復させます。 Gcalへデーター履歴を保持させます。";
+"oneWaySTToGCalMsg4LiteText"="これは既定のSmartTimeイベントを既定のGoogleカレンダーへ保存します。";
+"twoWaySTAndGCalMsg4LiteText"="これは既定のSmartTimeイベントを2つの方法で既定のGoogleカレンダーへ同期化します。";
+"oneWayGCalToSTMsg4LiteText"="これは既定のGoogleカレンダーから最近と将来のイベントを既定のSmartTimeイベントへ修復します。 Gcalへデーター履歴を保持させます。";
+"weedStartDayNotesMsg"="*注記: SmartTime再起動後に変更が反映されます。";
+"applyFilterText"="フィルター適用";
+"keyWordText"="検索のためのキーワードを入力";
+"taskText"="タスク";
+"eventText"="イベント";
+"workText"="ワーク";
+"homeText"="ホーム";
+"typeStrText"="タイプ";
+"contactsText"="連絡先";
+"alertBeforeText"="前にアラート";
+"alertByText"="によってアラート";
+"SMSText"="SMS";
+"smsButtonText"="SMS";
+"popupText"="Google Sync経由のiPhoneカレンダーアラート";
+"emailText"="Eメール";
+"specifiedTimeText"="特定の時間に";
+"alertText"="アラート";
+"addText"="追加…";
+"onDateEventText"="イベントの時間";
+"beforeText"="前";
+"APNSText"="プッシュ";
+"popUpText"="ポップアップ";
+"pushInformation"="プッシュ情報";
+"pushInformationMsg"="このバージョンでは、プッシュアラートは通常イベントとタスクで作動し、繰り返しイベントではしません。";
+"donotShowText"="表示しない";
+"pushRequireMsg"="プッシュ（挿入が必要）";
+"localNotificationMsg"="ポップアップアラート";
+"alertRequireMsg"="Google経由...Googleアカウントが必要）";
+"taskPushHintMsg"="タスクのプッシュアラートは上で特定した時間によります。\n\nプッシュアラートを受信するには、デバイスが携帯電話ネットワークに接続しているか、インターネットに接続されていなければなりません。";
+"taskPushHintOS4Msg"="タスク用ポップアップアラートは上で特定した時間によります。";
+"doneTodayButtonText"="今日完了";
+"hideDoneTodayButonText"="今日完了を隠す";
+"showDoneTodayButonText"="今日完了を表示する";
+"smartText"="スマート";
+"calendarText"="カレンダー";
+"focusText"="フォーカス";
+"markDoneText"="マーク済み";
+"deferText"="延ばす";
+"duplicateText"="重複";
+"exitFilterText"="フィルターを終了する";
+"historyText"="歴史";
+"nextdayText"="翌日";
+"nextweekText"="来週";
+"launchMapText"="マップを立ち上げる";
+"phoneContactText"="電話連絡先";
+"sharingTaskText"="タスク/イベント共有";
+"smartViewText"="スマート閲覧";
+"calendarViewText"="カレンダー閲覧";
+"phoneErrText"="申し訳ありません、電話番号が無いか、電話番号フォーマットが不正のため、連絡先に電話が掛けられません！";
+"phoneNumberText"="電話番号";
+"sendSmsText"="SMS送信";
+"smsErrText"="申し訳ありません、電話番号が無いか、電話番号フォーマットが不正のため、連絡先にSMS送信が出来ません！";
+"selecAtPhoneNumberText"="電話番号を選択";
+"aboutUsText"="我々について";
+"settingsText"="設定";
+"viewsText"="閲覧";
+"doneEventConfirmationText"="完了したイベントの確認";
+"doneEventWarningMessage"="そのイベントはタイムラインから削除され履歴へ置かれます。 本当にいいですか？";
+"noSupportPlatformMsg"="申し訳ありません！ デバイスがこのアクションをサポートしていません。";
+"backText"="戻る";
+"selectActionText"="アクションを選択：";
+"upgradeToSTProText"="ST Proへアップグレード";
+"upgradeToSTTaskText"="ST Proへアップグレード";
+"alsoByLCLText"="by レフトコーストロジック";
+"alsoByLCLBriefText"="By LCL >>";
+"deleteConfirmTitleText"="確定を削除";
+"titleGuideText"="タイトルタップまたはタイプ";
+"noneText"="無し";
+"oneWeekText"="1週間";
+"oneMonthText"="1ヶ月";
+"hometimeText"="ホームタイム";
+"worktimeText"="ワークタイム";
+"whenText"="いつ";
+"suggestedTimeText"="提案した時間：";
+"addTaskText"="タスクを追加";
+"addEventText"="イベントを追加";
+"editTaskText"="タスクを編集";
+"editEventText"="イベントを編集";
+"duplicateTaskText"="重複タスク";
+"duplicateEventText"="重複イベント";
+"titleLocationText"="タイトル/ロケーション";
+"titleGuideWWWText"="ショートカットをタップ、またはタイプ";
+"whatText"="何";
+"whoText"="誰";
+"whereText"="何処";
+"gotoText"="へ行く";
+"contactText"="連絡";
+"getText"="ゲット";
+"writeToText"="へ手紙を書く";
+"meetText"="会う";
+"deleteText"="削除";
+"cleanText"="クリーン";
+"appleBlueText"="アップルブルー";
+"blackOpaqueText"="ツヤ消し黒";
+"dailyText"="毎日";
+"weeklyText"="毎週";
+"monthlyText"="毎月";
+"yearlyText"="毎年";
+"syncGuideText"="Syncガイド";
+"syncGuideMessages"="2.3からのアップグレードですか？ 最初の同期化は1方法であることに注意 SmartTime -> GCal。 詳細情報は弊社オンラインSyncガイドを御覧ください。";
+"forGcalSyncText"="Gcal同期化用";
+//"onDateText"="時間に";
+"smartSyncGCalText"="SmartTime <-> GCal";
+"smartToGCalText"="SmartTime --> GCal";
+"gCalToSmartText"="GCal --> SmartTime";
+"nonameText"="無名";
+"STTasksWelcomMsg"="SmartTimeタスクへようこそ！";
+"visitText"="訪問";
+"laterText"="後で";
+"snoozeText"="再通知";
+"userNameText"="ユーザー名：";
+"passwordText"="パスワード:";
+"_autoText"="自動";
+"_manualText"="マニュアル";
+"_okText"="OK";
+"_cancelText"="キャンセル";
+"_yesText"="はい";
+"_deleteFromGCalText"="Gcalから削除";
+"_insertToSTText"="STへ挿入";
+"_notFitText"="スケジュールと合いません";
+"_makeNotFitText"="他のものをスケジュールと合わないようにする";
+"_syncErrText"="以下のタスク/イベントはSmartTimeの追加/アップデートに失敗しました、何故ならば";
+"_syncFailureText"="Googleサーバーエラー－再試行してください。";
+"_syncTryLaterText"="同期化を後で再試行してください";
+"_syncErrTitleText"="GoogleカレンダーSync－エラー";
+"_syncWarningTitleText"="SmartTime－警告";
+"_syncSuccessText"="Sync完了！";
+"_syncSuccessTitleText"="GoogleカレンダーSync";
+"_eventCalendarTitleText"="SmartTimeイベント";
+"_taskCalendarTitleText"="SmartTimeタスク";
+"_onewayST_GCalText"="ワンウェイSync ST->GCal";
+"_calendarDeleteConfirmText"="警告！SmartTimeは履歴データーを保存しないため、ワンウェイ同期化は全ての履歴データーと設定をGoogleカレンダーから削除します。 本当にGoogleカレンダーに位置付けした全てのデーターを削除してSmartTimeの現在のデーターに置き換えますか？";
+"_cancelSyncText"="Syncをキャンセル";
+"_stDeleteConfirmText"="SmartTimeの既存のデーター全てを削除してGcalからのデーターと本当に置き換えますか？";
+"_onewayGCal_STText"="ワンウェイSync ST->GCal";
+"_invalidUserNameNPasswordText"="ユーザー名とパスワードが不正です。有効なものを一つ設定で特定してください";
+"_gcalAccountErrTitleText"="Googleカレンダーアカウントエラー";
+"_syncProgressTitleText"="進行中…";
+"_plsWaitText"="しばらくお待ちください…";
+"_unreconcilableErrText"="前回の同期化のため両立出来ないタスク／イベント：";
+"_twowayST_GCalText"="ツーウェイ Sync ST<->GCal";
+"_noEventCalendar2SyncText"="Googleに同期化に対応したマッピングされたイベントカレンダーがありません。";
+"_noTaskCalendar2SyncText"="Googleに同期化に対応したマッピングされたタスクカレンダーがありません。";
+"_noCalendar2SyncText"="同期化するマッピングされたGoogleカレンダーがありません。マッピングを設定で指定してください";
+"_noDefaultCalendar2SyncText"="同期化するマッピングされたGoogleカレンダーがありません。 Googleに作成してください";
+"_readOnlyGCalText"="警告： 共有されたカレンダー[%SHARED_CAL%]は読み取り専用です。SmartTimeで変更された全てのものはGcalに同期化されません";
+"_note4ReadOnlyGCalText"="注記: 共有カレンダーのいくつかは読み取り専用です。SmartTimeで変更されたそれらのカレンダーはGcalに同期化されません";
+"_okAuthText"="正しいユーザー名とパスワード";
+"_koAuthText"="ユーザー名またはパスワードが不正です。正しいものを指定してください";
+"_checkAccountValidity"="有効性をチェック";
+"_error_1009Text"="インターネット接続がありません。";
+"_error304Text"="リクエスト中のIf-Modified-Sincヘッダーで指定された時間のため、リソースが変更されませんでした";
+"_error400Text"="無効な要求されたURIまたはヘッダー、またはサポートされていない非標準パラメーター";
+"_error401Text"="認証が必要です";
+"_error403Text"="証明と認証が出来ません。\n有効なGCalアカウントをチェックしてください。";
+"_error404Text"="リソース（フィードやエントリーなど）が見つかりません";
+"_error409Text"="指定されたバージョン番号がリソースの最新バージョン番号と一致しません";
+"_error500Text"="内部エラー これは既定のコードで全ての不明なエラーに使われます";
+"noInternetConnectionText"="インターネット接続がありません！";
+"noInternetConnectionMsg"="インターネットに接続していないようです。接続を確認して再試行してください。";
+"settingGCalAcountText"="Googleカレンダーアカウント";
+"settingSyncTypeText"="方向";
+"calToProjectMapText"="Syncセットアップ";
+"gcalSyncingText"="GCal同期化";
+"restoreFromGalText"="Gcalから修復する";
+"deletingWarningText"="削除前に警告する";
+"quickStartSyncGuideText"="クイックスタート";
+//"deleteDupTitleText"="重複していそうなものを削除する";
+"deleteDupTitleText"="重複削除";
+"finishedText"="完了！";
+"applicationBadgeText"="用アプリケーションバッジ";
+"allTasksText"="全てのタスク";
+"tasksWithDueText"="期限付き全てのタスク";
+"tasksWithNoDueText"="明日までのタスク期限";
+"weekStartDayText"="週の始まる日";
+"sundayText"="日曜";
+"mondayText"="月曜";
+"warningText"="警告！";
+"deleteDupMsg"="これは重複していないアイテムをいくつか削除し、そして後戻りは出来ません。 進みますか？";
+"workDaysText"="仕事日";
+"snoozeDurationText"="再通知期間";
+"tapToEnterCalNameText"="ここをタップしてGcal名を入力";
+"selectGCalNameInListText"="またはリスト中のGal名を選択する";
+"mapGCalToProjectForEventText"="GCal名をイベント用プロジェクトにマップする";
+"mapGCalToProjectForTaskText"="GCal名をタスク用プロジェクトにマップする";
+"unMapGCalText"="\'クリアーマッピング\'でマップしない";
+"clearGCalMappingText"="クリアーマッピング";
+"gCal_ProjectText"="プロジェクト <-> GCal";
+"editMappingText"="マッピングを編集";
+"dueStartText"="期限スタート";
+"horizonsText"="範囲";
+"guideContentText"="もしGoogleカレンダーアカウントをまだ持っていない場合、www.google.com/calendar\n\nで作成した後SmartTime内で:\n\n\
+1. アカウント設定を入力する\n\
+2. 同期化タイプを選択する\n\
+3. カレンダーをマップする\n\
+4. 同期化スタートと終了時間を選択する\n\n\
+注記: \n\n\
+もしワンウェイ同期化をST->GCalから使っていて、存在しないGoogleカレンダーにマップしている場合、SmartTimeは自動的に最初に同期化した時にそれらのカレンダーを作成します。\n\
+同期化のスタート時間は常に週の土曜日00:00:00または月の初日または年の初日に開始し、\
+そして同期化終了時間は常に毎週土曜日23:59:59または月の最終日または年の最終日に終了します\n\n\
+ヒント:\n\n\
+SmartTimeロジックはタスクとイベントを一目で分かるように結合させてから組織化します。 Googleカレンダーと同期化するには、二つの分離したGCalカレンダーを各SmartTimeプロジェクトのタスクに一つそしてイベントに一つマップ出来ます。 \
+例えば、\"ファミリー\" プロジェクトが二つのGCalカレンダー、すなわち\"ファミリータスク\"と\"ファミリーイベント\"にマップ出来ます。もし既にGCalにカレンダーがある場合、SmartTimeはそれらを位置付けしてプロジェクトにそれらをマップするオプションを提供します。 \n\n\
+留意点:\n\n\
+もしGCalのカレンダー名を変更した場合、マニュアルでそれをSmartTimeプロジェクトに再マップする必要があります。\n\n\
+詳細は： http://www.leftcoastlogic.com/sync を御覧ください";
+"guideContent4LiteText "="もしGoogleカレンダーアカウントをまだもっていない場合、www.google.com/calendar\n\nnで作成した後SmartTime内で：\n\n\
+1. アカウント設定を入力する\n\
+2. 同期化タイプを選択する\n\n\
+基本:\n\n\
+SmartTimeロジックはタスクとイベントを一目で分かるように結合させてから組織化します。この無料バージョンではイベントを\
+既定のGoogleカレンダー内の既定のプロジェクトのイベントから同期化出来ます。 SmartTime内の既定のプロジェクトは\"SmartTime\"です。 Googleカレンダーでは、 \
+既定のカレンダーは通常\"[UserName]gmail.com\"です。 SmartTimeは自動的に二つのカレンダーを同期化します。\n\n\
+クイックスタート：\n\n\
+1) \"Googleカレンダーアカウント\"をタップしてGoogleユーザー名とパスワードを入力。\n\
+2) \"有効性をチェック\"をタップして入力した情報が正確か確認するため数秒待ちます。\n\
+3) これだけです！ 同期化。 SmartTimeとGoogleカレンダーの既定のカレンダーからイベントを結合させる2つの方法を提示します。\n\n\
+注記：\n\n\
+1) 全てのSmartTimeプロジェクトのためにイベントとするべき事を同期化するには、SmartTimeプラスへアップグレードしましょう。\n\
+2) Googleカレンダーから大量のデーターベースをインポートまたは同期化する場合、逆にパフォーマンスに影響します。"; 
+"alertNoteMsgText"="• SMSアラートをGCal経由で受信するためには、携帯デバイス設定を以下の手順でしてください GCal -> 設定 -> 携帯セットアップ。\n\
+• ポップアップアラートをiPhoneカレンダー経由で受信するためには、\"ポップアップ\"にセットしてください。 Google Syncサービスに接続して使う必要があります。 詳細は http://leftcoastlogic.com/sync を御覧ください";
+"alertTimeText"="アラート時間";
+"timeText"="時間";
+"dueDateText"="期限日付";
+"alertByDueDateText"="期限日付でアラート";
+"alertBySpecifiedDateText"="指定日付でアラート";
+"monthText"="月";
+"loadingText"="ロード中…";
+"goText"="行く";
+"gotoDateText"="日付へ行く";
+"filterText"="フィルター";
+"quickAddText"="クイック追加";
+"applyText"="適用";
+"exitText"="退出";
+"saveText"="保存する";
+"nameText"="名前";
+"startText"="スタート";
+"newTaskText"="新しいタスク";
+"newEventText"="新しいイベント";
+"STText"="ついに、オーガナイザーに頭脳が備わりました。 SmartTimeは先進的なロジックを使いタスクとアポイントメントを組織化し優先順位付けをして、一目で分かるように表示します。\n\nタップしてタスクを作成－SmartTimeが時間を見出してくれます。 キーボードオプション。 その後指先で即座に再組織化します。\n\nマルチ表示： スマート、日、週、月。\n\niPhoneと統合そしてGoogleカレンダーにも同期化します。";
+"STuText"="SmartTimeに最適な仲間、SmartTunesは究極のメディアコンソールです。 200以上のWiFiステーションをクリスタルクリアーHiFiで聴くことが出来ます。 ジャンルまたはロケーションで選択。 クロックラジオ機能を使って音楽で目を覚まし、ユニークな\"スリープ\"モードで眠りに就いた後音楽をオフにします。\n多様なスキンを選んで自分の個性やその日や夜のムードに合わせることが出来ます。";
+"FFText"="友達の写真を撮ってそして70種類以上のイメージライブラリーの変化アイテムで写真をグーフィー、ゴーストまたはゴージャスミューズに変化させましょう。 またはフォトフォルダーへ保存して表示または送信しましょう。";
+"S2QText"="iPhoneキーボードは練習に使えます。 宇宙をマスターしながらキーボードをマスター出来ます！ \n\n空から落ちてくる文字をタイピングで撃ち落とします。 上級レベルへ移動すると宇宙船を単語をタイプして撃破します。\n\n5つの挑戦レベルと二つの異なるモード： ビギナーと\"トップガン\"";
+"syncBeginThisWeekText"="今週";
+"syncLastWeekText"="先週";
+"syncLastMonthText"="先月";
+"syncLast3MonthText"="前3ヶ月";
+"syncLastYearText"="去年";
+"syncAllPreviousText"="過去全て";
+"syncEndThisWeekText"="今週";
+"syncNextWeekText"="来週";
+"syncNextMonthText"="来月";
+"syncNext3MonthText"="次の3ヶ月";
+"syncNextYearText"="来年";
+"syncAllForwardText"="将来全て";
+"syncStartText"="Syncスタート";
+"syncEndText"="Sync終了";
+"dueText"="期限";
+"titleTipText"="タイトルを入力するだけです。\n残りを後ですることが出来ます";
+"cannotUpdateAlertMsg"="SmartTimeはサーバー上の通知サービス用アラートのアップデートが出来ませんでした。 作成したプッシュアラートをデバイスで受信することが出来ません。 接続を確認して再試行してください！";
+"noInternetForPushMsg"="インターネットに接続していないようです。 作成したプッシュアラートをデバイスで受信することが出来ません。 接続を確認して再試行してください！";
+"syncFromToText"="Syncから以下にSync";
+"smartSyncText"="スマートSync";
+"expertSyncText"="エキスパートSync";
+"mapText"="マップ";
+"unmapText"="全てマップしない";
+"inheritGCalText"="STプロジェクトにGcal名を受け継ぎますか？";
+"stProjectText"="SmartTimeプロジェクト";
+"withGCalText"="Googleカレンダーと";
+"smartSyncHintText"="SmartTimeプロジェクトからイベントを自動的にマップします。\n1) \'マップ\'ボタンをタップするだけで自動的にGoogleカレンダーにマップされます。 同期化したくないカレンダーをチェックを外して削除します。\n2) STプロジェクトをGCalカレンダー名に引き継ぐか否かを選択してください。 もし最初にGcalデーターを導入する場合これは便利です。";
+"smartSyncTipText"="SmartSyncヒント";
+"dontShowText"="表示しない";
+"expertSyncHintText"="1) 各プロジェクトのイベントとタスクを各Googleカレンダーへマニュアルでマップする。\n2) SmartTimeが全てのタスクカレンダーを管理する点に留意してください。同期化ガイドの詳細を御覧ください。\n3) 初めにGCalに名前を付けて、その後ここからそれらを選択することを忘れないでください。";
+"expertSyncTipText"="エキスパートSyncのヒント";
+"nothingToMapText"="マップするGoogleカレンダーがありません。 有効なGcalアカウントをチェック、または\'設定\'へ戻り、もし有効であれば\'マッピング\'を後に再試行してください。";
+"syncWindowText"="Syncウィンドウ";
+"syncWindowOption1Text"="3 W";
+"syncWindowOption2Text"="3 M";
+"syncWindowOption3Text"="6 M";
+"autoMapText"="自動マップ";
+"connectText"="更新";
+"gcalEventMappingText"="GCalイベントマッピング";
+"gcalTaskMappingText"="GCalタスクマッピング";
+"mappingHeaderText"="STプロジェクトGoogleカレンダー";
+"nothingToRefreshText"="マップするGoogleカレンダーがありません。 有効なGcalアカウントをチェック、または有効ならば'更新'を再試行してください。";
+"nothingToAutoMapText"="マップするGoogleカレンダーがありません。 有効なGcalアカウントをチェック、または有効ならば'自動マップ'を後で再試行してください。";
+"projectNameText"="プロジェクト名";
+"mappedGCalNameText"="マップしたGcal名";
+"useGCalNameText"="GCal名を使う";
+"projectEditText"="プロジェクト編集";
+"eventMapHintText"="新しいユーザー－自動的にイベントをマップ！\n\
+1) \'自動マップ\'をタップする。\n\
+2) 各プロジェクトをタップして選択または、マッピングの選択を取り消す。\n\
+3) 矢印をタップしてプロジェクト名を変更する。\n\n\
+エキスパートユーザー – さらなる柔軟性！\n\
+1) \'更新\'をタップしてカレンダーを再取得。\n\
+2) カレンダーをマップに移動。\n\
+3) \'タスク\'メニューをタップしてタスクをマップ; 詳細はSyncガイドも御覧ください：";
+"taskMapHintText"="SmartTimeタスクを\
+GCalの分離\'タスク\'カレンダーへも同期化出来ます。\n\n\
+SmartTimeがSmartTimeタスクにマップする\
+全てのGCal内カレンダーを\"コントロールする\"点に留意してください。 \
+同期化後、SmartTimeはそれらカレンダー内の全アイテムを\
+タスクとして扱い、最も効率的なタイムスロットへ\
+それらを移動します。 もし間違って\
+SmartTimeタスクをGoogleイベントカレンダーへマップした場合、\
+それらアポイントメントの指定した日付と時間を失ってしまいます。\n\
+Syncガイドを参照してください：";
+"quickAddPassDeadlineErrorMgs"="申し訳ありません！ これはいくつかのタスクの締切りを破ってしまいます！";
+"weekText"="週";
+"workDayStartsText"="仕事日スタート";
+"workDayEndsText"="仕事日終了";
+"weekendDayNeededMsg"="申し訳ありません！ 平日に空きがありません。 再び選択してください！";
+"nextText"="次";
+
+//"febText" = "Feb";
+
+//EK Sync
+//"settingSyncTypeText" = "Direction";
+"_calendarMappingText" = "カレンダーを マッピングする";
+"_eventSyncText" = "イベントを同期する";
+"_iCalMappingHeaderText" = "STのカレンダー   iPhoneのカレンダー ";
+"_mapAllCalendarsText" = "すべてのカレンダーを マッピングする";
+"_2wayText" = "両方向";
+"_importText" = "インポート";
+"_exportText" = "エクスポート";
+"_colorText" = "色";
+"_iPhoneCalendarsText" = "iPhoneのカレンダー";
+"_plsSelectCalToSyncText" = "同期するカレンダーを選択してください。";
+
+//TD Sync
+"tasksSyncText" = "Tasks sync";
+"TDSyncSetupText" = "Toodledo Sync setup";
+"TDSyncText" = "Toodledo Sync";
+
+
+"toodledoAccountSetupText" = "Toodledo Account setup";
+"lUserNameText"="Username";
+"paswordText"="Password";
+"syncTypeText"="Sync Type";
+"checkValidityText" = "Check Validity";//_checkAccountValidity
+"successText"="Success!";
+"accountValidateMsg"="Your account is correct!"; //"_okAuthText"
+"failedText"="Failed!";
+"accountInValidateMsg" = "Your input account is invalid! Please specify again.";//"_koAuthText"
+
+//new
+"calendarDetailText"="Calendar detail";
+"newCategoryText"="New Calendar";
+"projectsText"="Calendars";
+"synchronizationText"="Synchronization";
+"iPadCalendarSyncText"="iPhone Calendar"; 
+"syncNowText"="Sync Now";
+
+"deleteCalendarMsg"="This will delete the Calendar and all of the tasks and events that belong to it.  It will also delete the corresponding Calendar and all of its data, from your iPhone calendar. Proceed?";
+"newProjectText"="New Calendar";
+"editProjectText"="Edit Calendar";
+"setAsDefaultCaledarText"="Set as default Calendar";
+"enterCalendarNameHereText"="Enter a new calendar name here!";
+"unHideThisCalendarText"="Unhide this calendar";
+"selectColorText"="Select color";
+"deleteCalendarErrorMsg"="Sorry! You can not delete the default calendar!";
+"showAllText"="Show all";
+"autoSyncText"="Auto sync";
+
+"alertFromText"="Alert before from";
+"onDateOfDueText"="On date of Due";
+"onDateOfStartText"="On date of Start";
+"onDateText"="On date";
+"ofDueText"="Of Due";
+"ofStartText"="Of Start";
+"ofEventText"="Of event";
+"repeatFromDueDateText"="Repeat from Due date";
+"repeatFromCompletionDateText"="Repeat from completion Date";
+"syncEventOnlyText"="Only Events to iOS Cal.";
+
+"ST41FirstPopUpMsg"="Welcome to SmartTime!\
+- SmartTime synchronizes Events with your iPhone calendar, and can either integrate Tasks into your iPhone calendar, or sync them with the Reminders app.\
+- Before you sync for the first time, be sure to select the sync source of your iPhone calendar.\
+- For more info, please read our Sync Guide\
+- Protect your data by frequently backing up SmartTime!";
+
+"byLCLText"="By LCL";
+
+"beginAutoSyncNowText"="Begin auto sync now?";
+"STAutoSyncMsg"="SmartTime will sync automatically as you make changes while the app is running.";

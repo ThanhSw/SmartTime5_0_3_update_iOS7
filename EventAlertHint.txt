@@ -1,0 +1,8 @@
+<html>
+<body>
+<p><font size="4">
+To receive Push Alerts, your device must be either connected to a cell network or turned on and connected to the internet.<br/><br/>
+To receive Google alerts, you need to have a Google Calendar account that is configured to send messages to your phone.  For more information, see <a href='http://www.leftcoastlogic.com/sync'>http://www.leftcoastlogic.com/sync</a>
+</p>
+</body>
+</html>

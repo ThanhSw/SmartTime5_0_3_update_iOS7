@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>SmartTime</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon.png</string>
+		<string>icon72.png</string>
+		<string>icon114.png</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.leftcoastlogic.smarttimeplus</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>13110401</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.leftcoastlogic.SmartTimePlus</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>smarttimeplus</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>5.0.3</string>
+	<key>LSRequiresIPhoneOS</key>
+	<string>YES</string>
+    
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>leftcoastlogic.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSExceptionMinimumTLSVersion</key>
+                <string>TLSv1.2</string>
+                <key>NSExceptionRequiresForwardSecrecy</key>
+                <true/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSRequiresCertificateTransparency</key>
+                <false/>
+                <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                <string>TLSv1.2</string>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <true/>
+            </dict>
+            <key>mysmartday.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSExceptionMinimumTLSVersion</key>
+                <string>TLSv1.2</string>
+                <key>NSExceptionRequiresForwardSecrecy</key>
+                <true/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSRequiresCertificateTransparency</key>
+                <false/>
+                <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                <string>TLSv1.2</string>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>SmartDay uses bluetooth.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>SmartDay uses your calendar.</string>
+    <key>NSCameraUsageDescription</key>
+    <string> SmartDay uses camera.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>SmartDay uses contacts.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>SmartDay uses location.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>SmartDay uses location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>SmartDay uses location.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SmartDay uses microphone.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>SmartDay uses motion.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>SmartDay uses photos and video.</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>SmartDay uses reminders.</string>
+    <key>NSSiriUsageDescription</key>
+    <string>SmartDay uses siri.</string>
+    <key>NSVideoSubscriberAccountUsageDescription</key>
+    <string>SmartDay uses video.</string>
+
+
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

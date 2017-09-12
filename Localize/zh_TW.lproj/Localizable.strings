@@ -1,0 +1,583 @@
+"_sun_image"="Work.png";
+"_moon_image"="Home.png";
+"_re_image"="repeat.png";
+"_re_plus_image"="repeatPlus.png";
+"_re_exc_image"="exception.png";
+"_ade_image"="ADE.png";
+"_alert_image"="bell.png";
+"movingTaskPassItsDeadLineAlertText"="移動此工作會超過其期限。變更期限？";
+"movingTaskPassOthersDeadLineAlertText"="這會造成一些現有工作超過其期限。自動變更這些期限嗎？";
+"movingTaskIntoThePast"="抱歉，您不能將工作移動到過去。";
+"movingTaskPastToPast"="在移動前必須變更此工作的期限。";
+"actionMakesItsPassDeadLineText"="您的期限不合適。太忙了？變更期限？";
+"actionMakesOthersPassDeadlinesText"="這會造成一些現有工作超過其期限。自動變更那些期限嗎？";
+"startTimeIsLaterEndTimeText"="請選擇一個開始日期之後發生的結束日期";
+"importTaskSuccessText"="成功匯入";
+"deferTaskPassItsDeadlineText"="延遲此工作會超過其期限。變更期限？";
+"noTaskLocationForLaunchMapText"="抱歉！此工作無位置以啟動地圖。";
+"noEventLocationForLaunchMapText"="抱歉！此活動無位置以啟動地圖";
+"applyNewSettingMakesDtasksPassDeadlineText"="套用此動作會造成一些現有工作超過其期限。若仍想套用，請將“自動碰撞期限”變更為“自動”！";
+"taskEvenWithoutTitleText"="請新增一個標題。";
+"newDTaskWithDeadlineInThePastText"="抱歉，您的期限不能設在過去。";
+"durationIsTooLongText"="抱歉，工作的最大允許持續時間為 24 小時。";
+"overMaxTrialTaskText"="抱歉，免費版 SmartTime 不可新增多於 5 個工作/活動。要使用完整功能，請下載完整版 SmartTime。";
+"restoringSuccessText"="還原備份成功";
+"deleteREText"="您想要僅刪除此活動，系列中所有活動或系列中此活動和未來活動？";
+"deleteREAllAndFollowText"="您想要刪除系列中所有活動或系列中未來活動？";
+"deleteConfirmText"="刪除的工作/活動無法還原！確定要刪除嗎？";
+"editREInstanceText"="您想要僅變更此活動，系列中所有活動或系列中此活動和未來活動？";
+"wrongChangeREText"="抱歉，您不可以將週期性活動個體變更為工作。";
+"RETimesEditText"="請輸入重複次數。或選擇“永久重複”。或返回并選擇一個結束日期。";
+"introductionText"="SmartTime Beta 測試時間已到期。非常感謝您合作測試產品。您想要升級到 SmartTime Plus 的完整版本嗎？";
+"introductionLiteText"="升級到 ST Tasks 可完全整合 iPhone 和 Google，并可同步 Google 日曆。\n升級到 ST Pro 可實現完全整合、同步，以及高級天/週/月日曆功能。\n點\"升級\"圖示了解詳細資訊。";
+"introductionBasicText"="點 \"+\" 便可新增工作和活動。\n點 \"工具\" 圖示可設定 Google 同步和其他功能。\n造訪 ST Tasks 網頁可了解產品詳細資訊。\n\n謝謝，祝您使用快樂！\nLeft Coast Logic 團隊。";
+"REMakeTaskNotFitText"="抱歉，這將強制工作不再適應，因為其持續時間與此（可能其他）活動的長度和重複存在衝突。";
+"taskNotBeFitByREText"="抱歉，由於多個重複活動，此工作的持續時間（或一些現存工作）無法適應您的排程。建議變更此工作（或一些現存工作）的持續時間，或變更/移動一些重複活動";
+"cancelText"="取消";
+"autoText"="自動";
+"manualText"="手動";
+"okText"="確定";
+"manuallyText"="手動";
+"automaticallyText"="自動";
+"dismissText"="解除";
+"promptMeText"="提示我";
+"yesText"="是";
+"noText"="否";
+"editRETitleText"="編輯週期性活動";
+"deleteREtitleText"="刪除週期性活動";
+"onlyInsText"="僅此個體";
+"allEventsText"="系列中所有活動";
+"allInsFollowText"="所有以下";
+"maybeText"="可能";
+"expiredBetaTestingText"="逾期的 SmartTime Beta 測試！";
+"restoreBrokenLinkErrorMessageText"="抱歉，備份的資料無法還原，因為連接於內部中斷。";
+"errorBackupCanNotLaunchMailAppText"="抱歉，備份資料無法完成，因為 SmartTime 無法啟動郵件應用程式！";
+"errorSharingCanNotLaunchMailAppText"="抱歉，共享資料無法完成，因為 SmartTime 無法啟動郵件應用程式！";
+"allWorkDayText"="工作日所有工作時間";
+"allHomeDayText"="工作日所有家庭時間";
+"allDayText"="全天";
+"backupButtonText"="備份";
+"backupCellTileText"="備份資料到電子郵件";
+"backupNotesText"="此功能已在版本 2.3 中更新，且不再向後相容。因此在早於 2.3 的版本上製作的備份不可以還原。但是，當升級到 2.3 時，將不會對現存資料庫做任何變更，因此可在升級后進行備份。";
+"backupNotesLiteText"="這將允許將資料和設定備份到電子郵件，并將其移轉到 SmartTime Plus 3.0 和以上版本。僅需在安裝 SmartTime Plus 之後點電子郵件中的超連結即可。";
+"doneButtonText"="完成";
+"aText"="A";
+"bText"="B";
+"ccText"="C";
+"dText"="D";
+"eText"="E";
+"fText"="F";
+"gText"="G";
+"hText"="H";
+"iText"="I";
+"jText"="J";
+"kText"="K";
+"lText"="L";
+"mText"="M";
+"nText"="N";
+"oText"="O";
+"pText"="P";
+"qText"="Q";
+"rText"="R";
+"sText"="S";
+"tText"="T";
+"uText"="U";
+"vText"="V";
+"wText"="W";
+"xText"="X";
+"yText"="Y";
+"zText"="Z";
+"janText"="一月";
+"febText"="二月";
+"marText"="三月";
+"aprText"="四月";
+"mayText"="五月";
+"junText"="六月";
+"julText"="七月";
+"augText"="八月";
+"sepText"="九月";
+"octText"="十月";
+"novText"="十一月";
+"decText"="十二月";
+"sunText"="週日";
+"monText"="週一";
+"tueText"="週二";
+"wedText"="週三";
+"thuText"="週四";
+"friText"="週五";
+"satText"="週六";
+"amText"="上午";
+"pmText"="下午";
+"minText"="分鐘";
+"hrsText"="小時";
+"popupTitleText"="快顯";
+"emailTitleText"="電子郵件";
+"contextWDayCellText"="工作日";
+"contextWEndCellText"="週末";
+"minutesText"="分鐘";
+"hoursText"="小時";
+"daysText"="天";
+"weeksText"="週";
+"worktimeViewTitleText"="工作時間";
+"hometimeViewTitleText"="家庭時間";
+"eventtimeViewTitleText"="活動時間";
+"deadlineText"="期限";
+"weekdayStartCellText"="工作日起始於";
+"weekdayEndCellText"="工作日結束於";
+"weekendStartCellText"="週末起始於";
+"weekendEndCellText"="週末結束於";
+"todayText"="今天";
+"tomorrowText"="明天";
+"twoWeeksText"="2 週";
+"specifiedText"="已指定";
+"startsText"="開始";
+"endsText"="結束";
+"repeatText"="重複";
+"untilText"="直到";
+"foreverText"="永久";
+"generalSettingSectionText"="一般";
+"smarttimeSettingSectionText"="Smart Time";
+"defaultValuesSettingSectionText"="新工作設定";
+"settingBackgroundStyleText"="背景樣式";
+"settingProjectNameText"="專案名稱";
+"settingWorkTimeText"="工作時間";
+"settingHomeTimeText"="家庭時間";
+"settingAutoBumpTaskText"="自動碰撞工作";
+"settingAutoBumpTaskONText"="打開：在應用程式啟動時，未完成的工作將自動重新排程。";
+"settingAutoBumpTaskOFFText"="關閉：在應用程式啟動時，未完成的工作將不會自動重新排程。";
+"settingAutoBumpDeadlineText"="自動推 遲期限";
+"settingAutoBumpDeadlineONText"="打開：建立或修改工作時，工作期限會自動延長。";
+"settingAutoBumpDeadlineOFFText"="關閉：在建立或修改工作時對於任何超過期限的情況，警告使用者。";
+"cleanOldDateTitleText"="清除早於此天數的資料";
+"neverText"="永不";
+"durationText"="持續時間";
+"contextText"="內容";
+"projectText"="專案";
+//"editProjectText"="編輯專案";
+"locationText"="位置";
+"sortedByaddressText"="按地址排序";
+"sortedByContactText"="按連絡人排序";
+"doTodayText"="今日待辦";
+"nothingToDoText"="無待辦事項？";
+"nothingDoneText"="今天什麽也沒做！";
+"lclSeverErrorMsg"="SmartTime 嘗試連線到 LCL 伺服器，但是無法連線。這可能為暫時伺服器中斷;請在幾分鐘后嘗試重新整理活動提醒。如果問題仍然存在，請聯繫 supportleftcoastlogic.com，我們將為您解決。";
+"deleteAlertFailedText"="刪除提醒失敗！";
+"updateAlertFailedText"="更新提醒失敗！";
+"dayUnitText"="（ 天 ）";
+"titleText"="標題";
+"notesText"="備註";
+"gcalNameText"="Google 日曆名稱";
+"mapGCalToProjectErrorTitleText"="無法將 Google 日曆對應到專案：";
+"mapGCalToProjectErrorMEssageText"="抱歉！此 Google 日曆名稱已被其他專案使用。請為對應選擇其他名稱。";
+"untilDueText"="直到到期";
+"repeatTimesText"="重複次數";
+"repeatForeverText"="永久重複";
+"doneHistoryText"="完成歷程記錄";
+"repeatOnText"="於";
+"sunOptText"="週日";
+"monOptText"="週一";
+"tueOptText"="週二";
+"wedOptText"="週三";
+"thuOptText"="週四";
+"friOptText"="週五";
+"satOptText"="週六";
+"repeatByText"="重複按";
+"dayOfMonthText"="日期";
+"dayOfWeekText"="星期";
+"repeatEveryText"="重複每";
+"repeatTypeText"="重複類型";
+"contextsText"="內容";
+"stylesText"="樣式";
+"weekUnitText"="週";
+"monthUnitText"="月";
+"yearUnitText"="年";
+"oneWaySTToGCalMsgText"="這將把您的資料從 SmartTime 存儲到 Google 日曆。";
+"twoWaySTAndGCalMsgText"="這將使您的 SmartTime 中的資料與 Google 日曆進行雙向同步。";
+"oneWayGCalToSTMsgText"="這將還原您的 Google 日曆資料到 SmartTime。它將在 Google 日曆上保留歷程記錄資料。";
+"oneWaySTToGCalMsg4LiteText"="這將儲存您的預設 SmartTime 活動到您的預設 Google 日曆。";
+"twoWaySTAndGCalMsg4LiteText"="這將使您的預設 SmartTime 活動與您的 Google 日曆進行雙向同步。";
+"oneWayGCalToSTMsg4LiteText"="這將還原預設 Google 日曆的最近和未來活動到我們的預設 SmartTime 活動。它將在 Google 日曆上保留歷程記錄資料。";
+"weedStartDayNotesMsg"="*注意：變更將在重新啟動 SmartTime 之後反映。";
+"applyFilterText"="套用篩選器";
+"keyWordText"="輸入搜尋關鍵字";
+"taskText"="工作";
+"eventText"="活動";
+"workText"="工作";
+"homeText"="家庭";
+"typeStrText"="類型";
+"contactsText"="連絡人";
+"alertBeforeText"="提醒先於";
+"alertByText"="提醒按";
+"SMSText"="簡訊";
+"smsButtonText"="簡訊";
+"popupText"="透過 Google 同步的 iPhone 日曆提醒";
+"emailText"="電子郵件";
+"specifiedTimeText"="在指定時間";
+"alertText"="提醒";
+"addText"="新增...";
+"onDateEventText"="在活動時間";
+"beforeText"="之前";
+"APNSText"="發送";
+"popUpText"="快顯";
+"pushInformation"="發送資訊";
+"pushInformationMsg"="請注意在此版本中，發送提醒僅可用於正常活動和工作，不可用於重複活動。";
+"donotShowText"="不顯示";
+"pushRequireMsg"="發送（需要網際網路）";
+"localNotificationMsg"="彈出提示";
+"alertRequireMsg"="透過 Google...（需要 Google 帳戶）";
+"taskPushHintMsg"="工作的發送提醒基於您在上面指定的時間。\n\n要接收發送提醒，您的設備必須連線到無限蜂巢式網路或開啟并連線到網際網路。";
+"taskPushHintOS4Msg"="工作的快顯提醒基於您在上面指定的時間。";
+"doneTodayButtonText"="今天完成";
+"hideDoneTodayButonText"="隱藏今天完成";
+"showDoneTodayButonText"="顯示今天完成";
+"smartText"="智慧";
+"calendarText"="日曆";
+"focusText"="焦點";
+"markDoneText"="標示完成";
+"deferText"="延後";
+"duplicateText"="重複";
+"exitFilterText"="結束篩選器";
+"historyText"="歷程記錄";
+"nextdayText"="明天";
+"nextweekText"="下週";
+"launchMapText"="啟動地圖";
+"phoneContactText"="電話連絡人";
+"sharingTaskText"="共享工作/活動";
+"smartViewText"="智慧檢視";
+"calendarViewText"="日曆檢視";
+"phoneErrText"="抱歉，無法呼叫該連絡人，因為無電話號碼或呼叫號碼格式無效！";
+"phoneNumberText"="呼叫號碼";
+"sendSmsText"="發送簡訊";
+"smsErrText"="抱歉，無法發送簡訊到該連絡人，因為無電話號碼或呼叫號碼格式無效！";
+"selecAtPhoneNumberText"="選擇電話號碼";
+"aboutUsText"="關於我們";
+"settingsText"="設定";
+"viewsText"="檢視";
+"doneEventConfirmationText"="完成活動確認";
+"doneEventWarningMessage"="該活動將從時間表中移除，并置入歷程記錄。確定嗎？";
+"noSupportPlatformMsg"="抱歉！設備不支援此動作。";
+"backText"="上一步";
+"selectActionText"="選擇動作：";
+"upgradeToSTProText"="升級到 ST Pro";
+"upgradeToSTTaskText"="升級到 ST Tasks";
+"alsoByLCLText"="Left Coast Logic 其他產品";
+"alsoByLCLBriefText"="LCL 其他產品 >>";
+"deleteConfirmTitleText"="刪除確認";
+"titleGuideText"="標題                 點或鍵入";
+"noneText"="無";
+"oneWeekText"="1 週";
+"oneMonthText"="1 月";
+"hometimeText"="家庭時間";
+"worktimeText"="工作時間";
+"whenText"="時間";
+"suggestedTimeText"="建議時間：";
+"addTaskText"="新增工作";
+"addEventText"="新增活動";
+"editTaskText"="編輯工作";
+"editEventText"="編輯活動";
+"duplicateTaskText"="重複工作";
+"duplicateEventText"="重複活動";
+"titleLocationText"="標題/位置";
+"titleGuideWWWText"="點捷徑或鍵入";
+"whatText"="事項";
+"whoText"="人員";
+"whereText"="地點";
+"gotoText"="前往";
+"contactText"="連絡人";
+"getText"="獲取";
+"writeToText"="寫信到";
+"meetText"="會見";
+"deleteText"="刪除";
+"cleanText"="清理";
+"appleBlueText"="蘋果藍";
+"blackOpaqueText"="黑色";
+"dailyText"="每日";
+"weeklyText"="每週";
+"monthlyText"="每月";
+"yearlyText"="每年";
+"syncGuideText"="同步導引";
+"syncGuideMessages"="從 2.3 升級？請確保第一次同步為單向 SmartTime -> Google 日曆。有關詳細資訊，請參閱線上同步導引。";
+"forGcalSyncText"="Google 日曆同步";
+//"onDateText"="時間";
+"smartSyncGCalText"="SmartTime <-> Google 日曆";
+"smartToGCalText"="SmartTime --> Google 日曆";
+"gCalToSmartText"="Google 日曆 --> SmartTime";
+"nonameText"="無名稱";
+"STTasksWelcomMsg"="歡迎使用 SmartTime Tasks！";
+"visitText"="造訪";
+"laterText"="稍後";
+"snoozeText"="睡覺";
+"userNameText"="使用者名稱：";
+"passwordText"="密碼：";
+"_autoText"="自動";
+"_manualText"="手動";
+"_okText"="確定";
+"_cancelText"="取消";
+"_yesText"="是";
+"_deleteFromGCalText"="從 Google 日曆刪除";
+"_insertToSTText"="插入到 ST";
+"_notFitText"="無法適應排程";
+"_makeNotFitText"="使其他項不適應排程";
+"_syncErrText"="新增/更新以下工作/活動到 SmartTime 失敗，因為";
+"_syncFailureText"="Google 伺服器錯誤 - 請再試";
+"_syncTryLaterText"="請稍後重試同步";
+"_syncErrTitleText"="Google 日曆同步 - 錯誤";
+"_syncWarningTitleText"="SmartTime - 警告";
+"_syncSuccessText"="同步完成！";
+"_syncSuccessTitleText"="Google 日曆同步";
+"_eventCalendarTitleText"="SmartTime 活動";
+"_taskCalendarTitleText"="SmartTime 工作";
+"_onewayST_GCalText"="單向同步 ST->Google 日曆";
+"_calendarDeleteConfirmText"="警告！單向同步將刪除您的 Google 日曆上所有歷程記錄資料和設定，因為 SmartTime 不保留歷程記錄資料。確定要刪除對應的 Google 日曆中所有資料，并使用當前 SmartTime 中的資料取代嗎？";
+"_cancelSyncText"="取消同步";
+"_stDeleteConfirmText"="確定要刪除 SmartTime 中所有現存資料，并使用 Google 日曆資料取代嗎？";
+"_onewayGCal_STText"="單向同步 Google 日曆->ST";
+"_invalidUserNameNPasswordText"="使用者名稱和密碼無效。請在「設定」中指定有效的使用者名稱和密碼";
+"_gcalAccountErrTitleText"="Google 日曆帳戶錯誤";
+"_syncProgressTitleText"="進行中...";
+"_plsWaitText"="請稍後...";
+"_unreconcilableErrText"="因上次同步不可調和的工作/活動：";
+"_twowayST_GCalText"="雙向同步 ST<->Google 日曆";
+"_noEventCalendar2SyncText"="Google 中無要同步的對應活動日曆";
+"_noTaskCalendar2SyncText"="Google 中無要同步的對應工作日曆";
+"_noCalendar2SyncText"="無要同步的對應 Google 日曆。請在「設定」中指定對應";
+"_noDefaultCalendar2SyncText"="有要同步的預設 Google 日曆。請在 Google 中建立";
+"_readOnlyGCalText"="警告：共享日曆 [%SHARED_CAL%] 是唯讀。在 SmartTime 中對它的任何變更將不同步到 Google 日曆";
+"_note4ReadOnlyGCalText"="注意：一些共享日曆是唯讀。在 SmartTime 中對其做出的任何變更將不同步到 Google 日曆";
+"_okAuthText"="使用者名稱和密碼正確";
+"_koAuthText"="使用者名稱或密碼不正確。請指定有效的使用者名稱或密碼";
+"_checkAccountValidity"="檢查有效性";
+"_error_1009Text"="無網際網路連線。";
+"_error304Text"="該資源自要求的 If-Modified-Since 標頭中指定的時間以來，仍未變更。";
+"_error400Text"="無效的要求 URI 或標頭，或不支援的非標準參數";
+"_error401Text"="需要授權";
+"_error403Text"="無法驗證和授權。\n請檢查 Google 日曆帳戶是否有效。";
+"_error404Text"="找不到資源（如摘要或項目）";
+"_error409Text"="指定的版本號碼與資源的最新版本號碼不相符";
+"_error500Text"="內部錯誤。這是用於所有無法辨識錯誤的預設代碼";
+"noInternetConnectionText"="無網際網路連線！";
+"noInternetConnectionMsg"="似乎您未連線到網際網路。請檢查連線并再試。";
+"settingGCalAcountText"="Google 日曆帳戶";
+"settingSyncTypeText"="方向";
+"calToProjectMapText"="同步設定";
+"gcalSyncingText"="Google 日曆同步";
+"restoreFromGalText"="從 Google 日曆還原";
+"deletingWarningText"="刪除前警告";
+"quickStartSyncGuideText"="快速啟動";
+"deleteDupTitleText"="刪除可疑重複";
+"finishedText"="完成！";
+"applicationBadgeText"="應用程式標誌";
+"allTasksText"="所有工作";
+"tasksWithDueText"="所有到期的工作";
+"tasksWithNoDueText"="明天到期的工作";
+"weekStartDayText"="週起始日";
+"sundayText"="週日";
+"mondayText"="週一";
+"warningText"="警告！";
+"deleteDupMsg"="這將刪除一些非重複的項目，而且無法反轉。要繼續嗎？";
+"workDaysText"="工作日";
+"snoozeDurationText"="睡覺時間";
+"tapToEnterCalNameText"="點此處輸入 Google 日曆名稱";
+"selectGCalNameInListText"="或選擇清單中的 Google 日曆名稱";
+"mapGCalToProjectForEventText"="為活動將 Google 日曆名稱對應到專案";
+"mapGCalToProjectForTaskText"="為工作將 Google 日曆名稱對應到專案";
+"unMapGCalText"="通過\'清除對應\'取消對應";
+"clearGCalMappingText"="清除對應";
+"gCal_ProjectText"="專案 <-> Google 日曆";
+"editMappingText"="編輯對應";
+"dueStartText"="到期始於";
+"horizonsText"="水平線";
+"guideContentText"="如果您還沒有 Google 日曆帳戶，請在 www.google.com/calendar 建立一個\n\n然後，在 SmartTime 中：\n\n\
+1. 輸入您的帳戶設定\n\
+2. 選擇同步類型\n\
+3. 對應您的日曆\n\
+4. 選擇同步開始和結束時間\n\n\
+注意： \n\n\
+如果使用單向同步 ST->Google 日曆，并與非現存 Google 日曆對應，SmartTime 將在第一次執行同步時自動建立這些日曆。\n\
+同步開始時間將始終從週的星期天，或月第 1 天，或年的第 1 天的 00:00:00 開始， \
+同步結束時間將始終在週的星期六，或月的最後一天，或年的最後一天的 23:59:59 結束\n\n\
+提示：\n\n\
+SmartTime 按邏輯將工作和活動合併到一個檢視，然後組合管理。要與 Google 日曆同步，您可以為每個 SmartTime 專案對應兩個獨立 Google 日曆 - 一個用於工作，一個用於活動。 \
+例如，您的\"家庭\"專案可以對應兩個Google 日曆，分別稱為\"家庭工作\"和\"家庭活動。\"  如果在 Google 日曆中已經有日曆，SmartTime 將尋找它們，并提供將專案與其對應的選項。\n\n\
+請記住：\n\n\
+如果在 Google 日曆中變更日曆名稱，則將需要重新將它對於到相應的 SmartTime 專案。\n\n\
+有關詳細資訊: 請造訪 http://www.leftcoastlogic.com/sync";
+"guideContent4LiteText "="如果您還沒有 Google 日曆帳戶，請在 www.google.com/calendar 建立一個\n\n然後，在 SmartTime 中：\n\n\
+1. 輸入您的帳戶設定\n\
+2. 選擇同步類型\n\n\
+基礎知識：\n\n\
+SmartTime 按邏輯將工作和活動合併到一個檢視，然後組合管理。在此免費版本中，您可以將預設“專案”\
+中的活動與預設 Google 日曆中的活動同步。在 SmartTime 中，您的預設“專案”是 \"SmartTime\"。在 Google 日曆中，\
+您的預設日曆通常是 \"[UserName]gmail.com\"。SmartTime 將會自動同步這兩個日曆。\n\n\
+快速開始：\n\n\
+1) 點 \"Google 日曆帳戶\" 并輸入您的 Google 使用者名稱和密碼。\n\
+2) 點 \"檢查有效性\" 并稍等幾秒以確認您輸入的資訊是正確的。\n\
+3) 這樣即可同步了。我們建議選擇雙向同步以合併 SmartTime 和 Google 日曆中預設日曆的活動。\n\n\
+請注意：\n\n\
+1) 要同步所有 SmartTime 專案的活動和待辦事項，請升級到 SmartTime Plus。\n\
+2) 從 Google 日曆匯入或同步大型資料庫會影響性能。"; 
+"alertNoteMsgText"="• 要透過 Google 日曆接收簡訊提醒，請在「Google 日曆 -> 設定 -> 行動設定」中設定您的行動設備。\n\
+• 要透過 iPhone 日曆接收快顯提醒，請設定使用\"快顯\"。您將需要使用 Google 同步服務來連線。有關詳細資訊，請參閱 http://leftcoastlogic.com/sync";
+"alertTimeText"="提醒時間";
+"timeText"="時間";
+"dueDateText"="到期日期";
+"alertByDueDateText"="按到期日期提醒";
+"alertBySpecifiedDateText"="按指定日期提醒";
+"monthText"="月";
+"loadingText"="正在載入...";
+"goText"="移至";
+"gotoDateText"="移至日期";
+"filterText"="篩選器";
+"quickAddText"="快速新增";
+"applyText"="套用";
+"exitText"="結束";
+"saveText"="儲存";
+"nameText"="名稱";
+"startText"="開始";
+"newTaskText"="新工作";
+"newEventText"="新活動";
+"STText"="一個智慧組合管理程式終於出現了。SmartTime 使用高級邏輯組合和按優先順序排定工作和約會，并將它們整合到一個檢視。\n\n點按以建立工作 - SmartTime 為您找出時間。可選用鍵盤。然後使用手指即時重組。\n\n多個檢視：智慧、天、週、月。\n\n與您的 iPhone 整合并可與 Google 日曆同步。";
+"STuText"="SmartTime 的最佳伴侶，SmartTunes，是一款旗艦媒體主控臺。可收聽多於 200 個 WiFi 站點，HiFi清亮聲音。可通過內容類型或位置選擇。使用 ClockRadio 功能可喚醒音樂，或獨一的\"睡眠\"模式在犯困時關閉音樂...\n可選擇各種面板，以適應個性、白天或夜晚的心情。";
+"FFText"="給朋友拍照，并使用我們的超過 70 個才藝項目的影像庫，將他們變得愚笨、恐怖或高貴。\n\n然後使用內建的 Google 郵件外掛程式，直接發送給朋友。或儲存到您的 Photos 資料夾供顯示或轉送。";
+"S2QText"="iPhone 鍵盤現在可派上用場。您可以通過空戰來掌握鍵盤使用！ \n\n當字母下落時通過鍵入它們進行射擊。換到高級別輸入單詞可擊毀太空船。\n\n有五個挑戰級別和兩種模式：新手和\"高手。\"";
+"syncBeginThisWeekText"="本週";
+"syncLastWeekText"="上週";
+"syncLastMonthText"="上個月";
+"syncLast3MonthText"="過去 3 個月";
+"syncLastYearText"="去年";
+"syncAllPreviousText"="所有先前";
+"syncEndThisWeekText"="本週";
+"syncNextWeekText"="下週";
+"syncNextMonthText"="下個月";
+"syncNext3MonthText"="未來 3 個月";
+"syncNextYearText"="明年";
+"syncAllForwardText"="全部轉送";
+"syncStartText"="同步開始";
+"syncEndText"="同步結束";
+"dueText"="到期";
+"titleTipText"="可僅填入標題。\n您可在稍後做剩餘部份";
+"cannotUpdateAlertMsg"="SmartTime 無法在我們的伺服器上更新您的提醒以進行通知服務。您的設備可能無法收到任何您建立的發送提醒。請確定是否連線網際網路并再試！";
+"noInternetForPushMsg"="似乎您沒有連線到網際網路。您的設備不能收到任何您建立的發送提醒。請檢查您的連線并再試！";
+"syncFromToText"="同步從               同步至";
+"smartSyncText"="SmartSync";
+"expertSyncText"="ExpertSync";
+"mapText"="對應";
+"unmapText"="取消對應所有";
+"inheritGCalText"="ST 專案繼承 Google 日曆名稱？";
+"stProjectText"="SmartTime 專案";
+"withGCalText"="帶 Google 日曆";
+"smartSyncHintText"="自動從您的 SmartTime 專案對應活動。\n1) 只需點\'對應\'按鈕自動對應到 Google 日曆。 取消核取可刪除任何不想同步的日曆。\n2) 選擇您的 ST 專案是否繼承 Google 日曆的名稱。這對於第一次匯入 Google 日曆資料非常方便。";
+"smartSyncTipText"="SmartSync 提示";
+"dontShowText"="不顯示";
+"expertSyncHintText"="1) 手動從每個專案對應活動和工作到單個 Google 日曆。\n2) 注意 SmartTime 將控制所有的工作日曆。有關詳情，請參閱我們的同步導引。\n3) 記住首先在 Google 日曆中命名您的日曆，然後從此處選擇它們。";
+"expertSyncTipText"="ExpertSync 提示";
+"nothingToMapText"="無 Google 日曆可對應。請檢查您的 Google 日曆帳戶是否有效，若有效，請稍後返回\'設定\'，并再試\'對應\'。";
+"syncWindowText"="同步視窗";
+"syncWindowOption1Text"="1週";
+"syncWindowOption2Text"="3週";
+"syncWindowOption3Text"="3個月";
+"autoMapText"="自動對應";
+"connectText"="重新整理";
+"gcalEventMappingText"="Google 日曆活動對應";
+"gcalTaskMappingText"="Google 日曆工作對應";
+"mappingHeaderText"="ST 專案         Google 日曆";
+"nothingToRefreshText"="無 Google 日曆可對應。請檢查您的 Google 日曆帳戶是否有效，若有效，請再點「重新整理」嘗試。";
+"nothingToAutoMapText"="無 Google 日曆可對應。請檢查您的 Google 日曆帳戶是否有效，若有效，請再點「重新整理」，然後按「自動對應」。";
+"projectNameText"="專案名稱";
+"mappedGCalNameText"="對應的 Google 日曆名稱";
+"useGCalNameText"="使用 Google 日曆名稱";
+"projectEditText"="專案編輯";
+"eventMapHintText"="新使用者 - 自動對應活動！\n\
+1) 點\'自動對應\'。\n\
+2) 點每個專案以選擇或取消選擇對應。\n\
+3) 點箭頭可變更專案名稱。\n\n\
+專家使用者 - 更多靈活性！\n\
+1) 點\'重新整理\'可抓取日曆。\n\
+2) 移動日曆以對應。\n\
+3) 點\'工作\'菜單還可對應工作;有關詳情，請參閱我們的同步導引：";
+"taskMapHintText"="您還可將 SmartTime 工作同步到\
+ Google 日曆中獨立的\'工作\'日曆。\n\n\
+注意 SmartTime 將會\"控制\"所有\對應到 SmartTime 工作的 Google 日曆中的日曆。\
+在同步后，SmartTime 會處理\
+工作日曆中所有事項并進行移動以找到\
+最有效的時段，若誤將一個 SmartTime 工作對應\
+到一個 Google 活動日曆，\
+您會失去那些約會的特定日期和時間。\n\
+請瀏覽我們的同步導引：";
+"quickAddPassDeadlineErrorMgs"="抱歉！這將導致一些工作超過其期限！";
+"weekText"="週";
+"workDayStartsText"="工作日起始於";
+"workDayEndsText"="工作日結束於";
+"weekendDayNeededMsg"="抱歉！週末沒有時間。請再選！";
+"nextText"="下一";
+
+//"febText" = "Feb";
+
+//EK Sync
+ //"settingSyncTypeText" = "Direction";
+"_calendarMappingText" = "日曆對應 ";
+"_eventSyncText" = "事件Sync";
+"_iCalMappingHeaderText" = "ST日曆                 iPhone日曆 ";
+"_mapAllCalendarsText" = "對應所有日曆";
+"_2wayText" = "雙向";
+"_importText" = "滙入";
+"_exportText" = "滙出";
+"_colorText" = "顏色";
+"_iPhoneCalendarsText" = "iPhone日曆";
+"_plsSelectCalToSyncText" = "請選擇日曆對sync";
+
+//TD Sync
+"tasksSyncText" = "Tasks sync";
+"TDSyncSetupText" = "Toodledo Sync setup";
+"TDSyncText" = "Toodledo Sync";
+"toodledoAccountSetupText" = "Toodledo Account setup";
+
+"lUserNameText"="Username";
+"paswordText"="Password";
+"syncTypeText"="Sync Type";
+"checkValidityText" = "Check Validity";
+"successText"="Success!";
+"accountValidateMsg"="Your account is correct!";
+"failedText"="Failed!";
+"accountInValidateMsg" = "Your input account is invalid! Please specify again.";
+
+//new
+"calendarDetailText"="Calendar detail";
+"newCategoryText"="New Calendar";
+"projectsText"="Calendars";
+"synchronizationText"="Synchronization";
+"iPadCalendarSyncText"="iPhone Calendar"; 
+"syncNowText"="Sync Now";
+
+"deleteCalendarMsg"="This will delete the Calendar and all of the tasks and events that belong to it.  It will also delete the corresponding Calendar and all of its data, from your iPhone calendar. Proceed?";
+"newProjectText"="New Calendar";
+"editProjectText"="Edit Calendar";
+"setAsDefaultCaledarText"="Set as default Calendar";
+"enterCalendarNameHereText"="Enter a new calendar name here!";
+"unHideThisCalendarText"="Unhide this calendar";
+"selectColorText"="Select color";
+"deleteCalendarErrorMsg"="Sorry! You can not delete the default calendar!";
+"showAllText"="Show all";
+"autoSyncText"="Auto sync";
+
+"alertFromText"="Alert before from";
+"onDateOfDueText"="On date of Due";
+"onDateOfStartText"="On date of Start";
+"onDateText"="On date";
+"ofDueText"="Of Due";
+"ofStartText"="Of Start";
+"ofEventText"="Of event";
+"repeatFromDueDateText"="Repeat from Due date";
+"repeatFromCompletionDateText"="Repeat from completion Date";
+"syncEventOnlyText"="Only Events to iOS Cal.";
+
+"ST41FirstPopUpMsg"="Welcome to SmartTime!\
+- SmartTime synchronizes Events with your iPhone calendar, and can either integrate Tasks into your iPhone calendar, or sync them with the Reminders app.\
+- Before you sync for the first time, be sure to select the sync source of your iPhone calendar.\
+- For more info, please read our Sync Guide\
+- Protect your data by frequently backing up SmartTime!";
+
+"byLCLText"="By LCL";
+
+"beginAutoSyncNowText"="Begin auto sync now?";
+"STAutoSyncMsg"="SmartTime will sync automatically as you make changes while the app is running.";

@@ -1,0 +1,12 @@
+<html>
+<head><style>body{background-color:transparent;}</style></head>
+<!-- body bgcolor="#87cefa" -->
+<body>
+<p><font size="4">
+Welcome to SmartTime Tasks!<br/><br/>
+Super Quick Start: Tap on the "+" to add a new Task or Event. One word and you are done.<br/><br/>
+
+Almost as quick: View our <a href='http://www.leftcoastlogic.com/sync'>Quick Start</a> guide online.
+</p>
+</body>
+</html>

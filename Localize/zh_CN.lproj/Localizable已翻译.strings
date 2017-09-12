@@ -1,0 +1,426 @@
+
+"_sun_image" = "Work.png";
+"_moon_image" = "Home.png";
+"_re_image" = "repeat.png";
+"_re_plus_image" = "repeatPlus.png";
+"_re_exc_image" = "exception.png";
+"_ade_image" = "ADE.png";
+"_alert_image" = "bell.png";
+
+
+"movingTaskPassItsDeadLineAlertText" = "移动此任务会与其截止日期冲突，是否更改截止日期？";
+"movingTaskPassOthersDeadLineAlertText" = "此操作会造成一些已存在的任务超过截止日期，是否自动更改截止日期？";
+"movingTaskPastToPast" = "在移动此任务之前您需要先更改它的截止日期。";
+"actionMakesItsPassDeadLineText" = "您的截止日期将会与之前的设置冲突。（太忙了？）是否重新更改截止日期？";
+"actionMakesOthersPassDeadlinesText" = "此操作会造成一些已存在的任务超过截止日期，是否自动更改截止日期？";
+"startTimeIsLaterEndTimeText" = "请选择位于已设定好的开始日期之后的日期作为结束日期。";
+"importTaskSuccessText" = "导入成功";
+"deferTaskPassItsDeadlineText" = "延迟该任务将会使其超过截止日期，是否更改截止日期？";
+"noTaskLocationForLaunchMapText" = "抱歉!该任务没有在地图上定位。";
+"noEventLocationForLaunchMapText " = "抱歉!该事件没有在地图上定位。";
+"applyNewSettingMakesDtasksPassDeadlineText"= "此次操作会造成一些已存在的任务超过截止日期。若要继续此操作，请打开自动调整截止日期功能。";
+"taskEvenWithoutTitleText" = "请输入标题。";
+"newDTaskWithDeadlineInThePastText" = "抱歉，您的截止时间无法设置在过去。";
+"durationIsTooLongText" = "抱歉，一个任务能够设置的最长持续时间为24小时。";
+"overMaxTrialTaskText" = "抱歉，免费版SmartTime中，您不能添加5个以上的任务／事件。请下载完整版来使用全部功能。";
+"restoringSuccessText" = "成功还原备份";
+"deleteREText" = "只删除此事件,或者此系列所有事件还是将来的所有此系列事件？";
+"deleteREAllAndFollowText" = "删除此系列事件，还是删除将来所有的此系列事件？";
+"deleteConfirmText" = "被删除的事件/任务将无法被还原！您确定要删除吗？";
+"editREInstanceText" = "只更改此事件，或者此系列所有事件还是将来所有的此系列事件？";
+"wrongChangeREText" = "抱歉，您不能将一个定期事件转换成一个任务。";
+"RETimesEditText" = "请输入重复提醒的次数，或选择“永远重复”，或返回上一级菜单选择结束日期。";
+"introductionLiteText" = "升级到ST Tasks以整合iPhone和Google功能,并添加Google日历同步。\n升级到ST Pro以完全整合，并添加高级日历项同步。\n点击\"升级\"图标来获取更多信息。";
+"introductionBasicText" = "点击 \"+\" 添加新任务和新事件。\n点击\"工具\" 按钮来设置Google同步和其他功能。\n若需要了解更多关于此产品信息，请浏览ST Tasks页面。\n\n感谢您使用我们的产品！\nThe Left Coast Logic Team.";
+
+"REMakeTaskNotFitText" = "抱歉，此操作会造成任务之间因时间分配而相互冲突。";
+"taskNotBeFitByREText" = "抱歉，时间冲突！由于已存在的多个重复事件，造成此任务（或已存在的任务）的持续时间不适应您的时间表。建议您改变该任务（或已存在的任务）的持续时间，或改变／移动其他重复事件。";
+"cancelText" = "取消";
+"autoText" = "自动";
+"manualText" = "手动";
+"okText" = "确认";
+"manuallyText" = "手动";
+"automaticallyText" = "自动";
+"dismissText" = "忽略";
+"promptMeText" = "提示我";
+"yesText" = "是";
+"noText" = "否";
+
+"editRETitleText" = "编辑定期事件";
+"deleteREtitleText" = "删除定期事件";
+
+"onlyInsText" = "仅此一例";
+"allEventsText" = "此系列中的所有事件";
+"allInsFollowText" = "以下所有";
+
+"restoreBrokenLinkErrorMessageText" = "抱歉，还原备份失败。内部连接已损坏！";
+"errorBackupCanNotLaunchMailAppText" = "抱歉，未完成数据备份。SmartTime无法连接 mail！";
+"errorSharingCanNotLaunchMailAppText" = "抱歉，未完成数据共享。SmartTime无法连接 mail！";
+"allWorkDayText" = "设为全部工作时间（工作日）";
+"allHomeDayText" = "设为全部在家时间（工作日）";
+"allDayText" = "设为全天";
+"backupButtonText" = "备份";
+"backupCellTileText" = "将数据通过email备份";
+"doneButtonText" = "完成";
+"aText" = "A";
+"bText" = "B";
+"ccText" = "C";
+"dText" = "D";
+"eText" = "E";
+"fText" = "F";
+"gText" = "G";
+"hText" = "H";
+"iText" = "I";
+"jText" = "J";
+"kText" = "K";
+"lText" = "L";
+"mText" = "M";
+"nText" = "N";
+"oText" = "O";
+"pText" = "P";
+"qText" = "Q";
+"rText" = "R";
+"sText" = "S";
+"tText" = "T";
+"uText" = "U";
+"vText" = "V";
+"wText" = "W";
+"xText" = "X";
+"yText" = "Y";
+"zText" = "Z";
+
+"janText" = "一月";
+"febText" = "二月";
+"marText" = "三月";
+"aprText" = "四月";
+"mayText" = "五月";
+"junText" = "六月";
+"julText" = "七月";
+"augText" = "八月";
+"sepText" = "九月";
+"octText" = "十月";
+"novText" = "十一月";
+"decText" = "十二月";
+
+"sunText" = "周日";
+"monText" = "周一";
+"tueText" = "周二";
+"wedText" = "周三";
+"thuText" = "周四";
+"friText" = "周五";
+"satText" = "周六";
+"amText" = "上午";
+"pmText" = "下午";
+"minText" = "分";
+"hrsText" = "时";
+
+"popupTitleText" = "弹出";
+"emailTitleText" = "Email";
+
+"contextWDayCellText" = "   工作日";
+"contextWEndCellText" = "   周末";
+
+"minutesText" = "分钟";
+"hoursText" = "小时";
+"daysText" = "天";
+"weeksText" = "周";
+
+"worktimeViewTitleText" = "工作时间";
+"hometimeViewTitleText" = "在家时间";
+"eventtimeViewTitleText" = "事件时间";
+"deadlineText" = "截止日期";
+
+"weekdayStartCellText" = "工作日开始";
+"weekdayEndCellText" = "工作日结束";
+
+"weekendStartCellText" = "周末周末开始";
+"weekendEndCellText" = "周末结束";
+
+"todayText" = "今天";
+"tomorrowText" = "明天";
+"twoWeeksText" = "2 周";
+"specifiedText" = "指定";
+"startsText" = "开始于";
+"endsText" = "结束于";
+"repeatText" = "重复";
+"untilText" = "直到";
+"foreverText" = "永远";
+
+"generalSettingSectionText" = "常规";
+"smarttimeSettingSectionText" = "Smart Time";
+"defaultValuesSettingSectionText" = "新任务设置";
+"settingBackgroundStyleText" = "背景风格";
+"settingProjectNameText" = "项目名称";
+"settingWorkTimeText" = "工作时间";
+"settingHomeTimeText" = "在家时间";
+
+"settingAutoBumpTaskText" = "自动调整任务";
+
+"settingAutoBumpTaskONText" = "开: 应用启动后，没有完成的任务会被自动重新编入日程表。";
+"settingAutoBumpTaskOFFText" = "关: 应用启动后，没有完成的任务不会被自动重新编入日程表。";
+
+"settingAutoBumpDeadlineText" = "自动调整截止日期";
+"settingAutoBumpDeadlineONText" = "开: 当创建或修改任务时自动延长截止日期以适合设置。";
+"settingAutoBumpDeadlineOFFText" = "关: 当创建或修改任务使其超过截止日期时提醒用户。";
+
+"cleanOldDateTitleText" = "清除此前数据";
+"neverText" = "从不";
+
+"durationText" = "持续时间";
+"contextText" = "属性";
+"projectText" = "项目";
+"editProjectText" = "编辑项目";
+
+"locationText" = "地点";
+
+"sortedByaddressText" = "按地址排序";
+"sortedByContactText" = "按联系人排序";
+
+"doTodayText" = "今天的待办事项";
+"nothingToDoText" = "没有待办事项吗?";
+"nothingDoneText" = "今天还没有完成任何事项!";
+"lclSeverErrorMsg" = "Smart Time尝试连接LCL服务器但是失败了。这可能是因为服务器暂时失去了响应。请在几分钟后再次尝试刷新您的事件提醒。如果问题依然存在，联系support@leftcoastlogic.com，我们会尽快为您解决。";
+
+"deleteAlertFailedText" = "删除提醒失败!";
+"updateAlertFailedText" = "更新提醒失败!";
+
+"dayUnitText" = "( 天 )";
+"titleText" = "标题";
+"notesText" = "备注";
+"gcalNameText" = "GCal 名字";
+"untilDueText" = "直到";
+"repeatTimesText" = "重复次数";
+"repeatForeverText" = "永远重复";
+
+"doneHistoryText"= "已完成事项历史";
+
+"repeatOnText" = "重复功能开启";
+"sunOptText" = "    S";
+"monOptText" = "    M";
+"tueOptText" = "    T";
+"wedOptText" = "    W";
+"thuOptText" = "    T";
+"friOptText" = "    F";
+"satOptText" = "    S";
+"repeatByText" = "重复类型";
+"dayOfMonthText" = "按月视图重复                  ";
+"dayOfWeekText" = "按周视图重复                    ";
+"repeatEveryText" = "每";
+"repeatTypeText" = "重复类型";
+"contextsText" = "情景";
+"stylesText" = "风格";
+"weekUnitText" = "周";
+"monthUnitText" = "月";
+"yearUnitText" = "年";
+
+"applyFilterText" = "筛选";
+"keyWordText" = "输入供搜索的关键字";
+"taskText" = "任务";
+"eventText" = "事件";
+"workText" = "工作";
+"homeText" = "家庭";
+"typeStrText" = "类型";
+
+"contactsText" = "联系人";
+
+"alertBeforeText" = "提醒设置";
+
+"alertText" = "提醒";
+"onDateEventText" = "在事件发生时";
+"beforeText" = "之前";
+"donotShowText" = "不显示";
+
+"doneTodayButtonText" = "今天已完成的事项";
+"hideDoneTodayButonText" = "隐藏今天已完成的事项";
+"showDoneTodayButonText" = "显示今天已完成的事项";
+
+"smartText" = "Smart";
+"calendarText" = "日程表";
+"focusText" = "关注项";
+"markDoneText" = "标记为已完成";
+"deferText" = "推迟";
+"duplicateText" = "复制";
+"exitFilterText" = "退出筛选";
+"historyText"= "历史";
+"nextdayText" = "明天";
+"nextweekText" = "下周";
+"launchMapText" = "打开地图";
+"phoneContactText" = "联系人";
+"sharingTaskText" = "分享 任务/事件";
+"smartViewText" = "Smart 视图";
+"calendarViewText" = "日程表视图";
+"phoneErrText" = "抱歉，无法完成呼叫。没有输入号码或者输入的是错误的号码!" ;
+"phoneNumberText" = "呼叫";
+"sendSmsText" = "发送短信息";
+"smsErrText" = "抱歉，无法发送短信息。没有输入号码或者输入的是错误的号码!" ;
+"selecAtPhoneNumberText" = "选择一个号码";
+
+"aboutUsText" = "关于";
+"settingsText" = "设置";
+"viewsText" = "视图";
+"doneEventConfirmationText" = "确认已完成事件";
+"doneEventWarningMessage" = "该事件将会被从时间线上删除并放入历史记录. 确认吗?";
+"noSupportPlatformMsg" = "抱歉! 该设备不支持此操作.";
+"backText" = "返回";
+"upgradeToSTProText" = "升级至 ST Pro";
+"upgradeToSTTaskText" = "升级至 ST Tasks";
+"alsoByLCLBriefText" = "同样由 LCL出品 >>";
+"deleteConfirmTitleText" = "删除确认";
+
+"titleGuideText" = "标题                 点击或输入";
+"noneText" = "无";
+"oneWeekText" = "1 周";
+"oneMonthText" = "1 月";
+"hometimeText" = "在家时间";
+"worktimeText" = "工作时间";
+"whenText" = "日期";
+"suggestedTimeText" = "建议时间: ";
+"addTaskText" = "新建任务";
+"addEventText" = "新建事件";
+"editTaskText" = "编辑任务";
+"editEventText" = "编辑事件";
+"duplicateTaskText" = "复制任务";
+"duplicateEventText" = "复制事件";
+
+"titleLocationText" = "标题/地点";
+"titleGuideWWWText" = "点击一个快捷方式或输入";
+"whatText" = "内容";
+"whoText" = "人物";
+"whereText" = "地点";
+"gotoText" = "去 ";
+"contactText" = "联系 ";
+"getText" = "取 ";
+"writeToText" = "写信给 ";
+"meetText" = "约见 " ;
+"deleteText" = "删除";
+"cleanText" = "清除";
+
+"appleBlueText" = "Apple Blue";
+"blackOpaqueText" = "Black Opaque";
+"dailyText" = "按天";
+"weeklyText" = "按周";
+"monthlyText" = "按月";
+"yearlyText" = "按年";
+"syncGuideText" = "同步向导";
+
+"onDateText" = "当";
+"nonameText" = "未命名";
+"STTasksWelcomMsg" = "欢迎使用 SmartTime Tasks!";
+"visitText" = "访问";
+"laterText" = "稍后";
+"snoozeText" = "贪睡";
+
+"_autoText" = "自动";
+"_manualText" = "手动";
+"_okText" = "OK";
+"_cancelText" = "取消";
+"_yesText" = "YES";
+
+"noInternetConnectionText" = "无网络连接!";
+"noInternetConnectionMsg" = "无法连接网络。请检查连接设置后重试。";
+
+"deletingWarningText" = "删除前提醒";
+
+"deleteDupTitleText" = "删除多余复制项";
+"finishedText" = "完成!";
+"applicationBadgeText" = "应用图标提醒显示为";
+"allTasksText" = "所有任务";
+"tasksWithDueText" = "所有要截止的任务";
+"tasksWithNoDueText" = "预期明天截止的任务";
+"weekStartDayText" = "每周开始于";
+"sundayText" = "周日";
+"mondayText" = "周一";
+"warningText"= "警告!";
+"deleteDupMsg" = "这可能会移除部分非复制的事项，并且无法恢复。继续吗?";
+"workDaysText" = "工作日";
+"snoozeDurationText" = "贪睡时间";
+
+"dueStartText" = "预期开始";
+"horizonsText" = "视野";
+
+"goText" = "执行";
+"gotoDateText" = "前往日期";
+"filterText" = "筛选";
+"quickAddText" = "快速添加";
+"applyText" = "应用";
+"exitText" = "退出";
+"saveText" = "保存";
+"nameText" = "名字";
+"startText" = "开始";
+"newTaskText" = "新任务";
+"newEventText" = "新事件";
+
+"syncBeginThisWeekText" = "本周";
+"syncLastWeekText" = "上周";
+"syncLastMonthText" = "上月";
+"syncLast3MonthText" = "最近3个月";
+"syncLastYearText" = "去年";
+"syncAllPreviousText" = "过去所有";
+
+"syncEndThisWeekText" = "本周";
+"syncNextWeekText" = "下周";
+"syncNextMonthText" = "下月";
+"syncNext3MonthText" = "未来3个月";
+"syncNextYearText" = "明年";
+"syncAllForwardText" = "将来所有";
+
+"syncStartText" = "同步起点";
+"syncEndText" = "同步终点";
+
+"dueText" = "预期截止";
+"titleTipText" = "只需填入标题.\n你可以稍后完成其余项目";
+
+"syncFromToText" = "   同步开始时间               同步结束时间";
+
+"dontShowText" = "不显示";
+
+"syncWindowText" = "同步时长";
+"syncWindowOption1Text" = "1 周";
+"syncWindowOption2Text" = "3 周";
+"syncWindowOption3Text" = "3 月";
+
+"quickAddPassDeadlineErrorMgs" = "抱歉!这会导致部分任务超过截止日期!";
+
+"weekText" = "周";
+
+"workDayStartsText" = "工作日开始于";
+"workDayEndsText" = "工作日结束于";
+"weekendDayNeededMsg" = "抱歉! 这样设置会导致没有周末时间. 请重新选择!";
+"nextText" = " 下一个 ";
+
+"calendarDetailText"="项目详情";
+"newCategoryText"="新项目";
+"projectsText"="项目";
+"synchronizationText"="同步";
+"iPadCalendarSyncText"="与iPhone日历同步"; 
+"syncNowText"="立即同步";
+"deleteCalendarMsg"="此操作将会删除该项目和它所有的附属任务和事件。同时也会从您的iPhone日历撒谎能够删除所有相关的信息。确认继续吗？";
+"newProjectText"="新项目";
+"editProjectText"="编辑项目";
+"setAsDefaultCaledarText"="设为默认项目";
+"enterCalendarNameHereText"="在此输入新项目名称!";
+"unHideThisCalendarText"="不隐藏此项目";
+"selectColorText"="选择颜色";
+"deleteCalendarErrorMsg"="抱歉! 不能删除默认项目!";
+"showAllText"="显示全部";
+"autoSyncText"="自动同步";
+
+"alertFromText"="请选择在开始或结束前进行提醒";
+"onDateOfDueText"="在截止时";
+"onDateOfStartText"="在开始时";
+"onDateText"="在";
+"ofDueText"="截止时";
+"ofStartText"="开始时";
+"ofEventText"="事件发生时";
+"repeatFromDueDateText"="在截止日期前重复";
+"repeatFromCompletionDateText"="在完成日期前重复";
+"syncEventOnlyText"="仅同步事件";
+
+"ST41FirstPopUpMsg"="欢迎使用 SmartTime 5!\
+\n\
+\n- SmartTime能够同步您的iphone日历中的任务和事件. 在您第一次进行同步前，请点击下方的”同步向导“按钮来读取有关同步操作的重要信息。\
+\n\
+\n- 通过Email备份SmartTime来保护您的数据.只需点击 设置 -> 备份.";
+
+"beginAutoSyncNowText"="现在开始同步吗？";
+"STAutoSyncMsg"="SmartTime在运行时会自动同步您的所有更改。";

@@ -1,0 +1,21 @@
+<html>
+<body bgcolor="#bababa">
+<p><font size="4">
+If you do not already have a Google Calendar account, please create one at <a href='http://www.google.com/calendar'>http://www.google.com/calendar</a><br/><br/>
+Then, in SmartTime:<br/><br/>
+1. Input your Account settings<br/>
+2. Choose Your Sync Type<br/><br/>
+The Basics:<br/><br/>
+SmartTime logic combines Tasks and Events into one view then organizes them for you. In this free version, you can synchronize Events from 
+your default Project with the events in your default Google Calendar.  In SmartTime, your default Project is "SmartTime".  In Google Calendar, 
+your default Calendar is typically "[UserName]@gmail.com".  SmartTime will automatically sync the two calendars.<br/><br/>
+Quick Start:<br/><br/>
+1) Tap "Google Calendar Account" and input your Google UserName and Password.<br/>
+2) Tap "Check validity" and wait a few seconds for confirmation that the info you entered is correct.<br/>
+3) That's it!  Sync.  We suggest two-way to combine the Events from the default calendars in SmartTime and Google Calendar.<br/><br/>
+Note:<br/><br/>
+1) To sync both Events and To Do's for all of your SmartTime Projects, upgrade to SmartTime Plus.<br/>
+2) Importing or syncing large databases from your Google Calendar can adversely affect performance.";
+</p>
+</body>
+</html>

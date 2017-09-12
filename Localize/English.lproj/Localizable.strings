@@ -1,0 +1,665 @@
+
+"_sun_image" = "Work.png";
+"_moon_image" = "Home.png";
+"_re_image" = "repeat.png";
+"_re_plus_image" = "repeatPlus.png";
+"_re_exc_image" = "exception.png";
+"_ade_image" = "ADE.png";
+"_alert_image" = "bell.png";
+
+
+"movingTaskPassItsDeadLineAlertText" = "Moving this task will bump it past its deadline. Change deadline?";
+"movingTaskPassOthersDeadLineAlertText" = "This will cause some existing tasks to pass their deadlines. Change those deadlines automatically?";
+"movingTaskIntoThePast" = "Sorry, you can't move a task into the past.";
+"movingTaskPastToPast" = "You will have to change the deadline of this task before you move it.";
+"actionMakesItsPassDeadLineText" = "Your deadline will not fit. Too busy? Change deadline?";
+"actionMakesOthersPassDeadlinesText" = "This will cause some existing tasks to pass their deadlines. Change those deadlines automatically?";
+"startTimeIsLaterEndTimeText" = "Please choose an End-date that occurs after the Start-date";
+"importTaskSuccessText" = "Imported successfully";
+"deferTaskPassItsDeadlineText" = "Defering this task will bump it past its deadline. Change deadline?";
+"noTaskLocationForLaunchMapText" = "Sorry! This task has no location to launch the Maps";
+"noEventLocationForLaunchMapText" = "Sorry! This event has no location to launch the Maps";
+"applyNewSettingMakesDtasksPassDeadlineText"= "Apply this will cause some existing tasks to pass their deadlines. Change Auto Bump Deadline to Automatically if you still want to apply!";
+"taskEvenWithoutTitleText" = "Please add a title.";
+"newDTaskWithDeadlineInThePastText" = "Sorry, your deadline cannot be in the past.";
+"durationIsTooLongText" = "Sorry, the maximum allowable duration for a task is 24 hours.";
+"overMaxTrialTaskText" = "Sorry, you could not add more than 5 tasks/events with free SmartTime version. For using full features, please download the full SmartTime version.";
+"restoringSuccessText" = "Restored backup successfully";
+"deleteREText" = "Would you like to delete only this event, all events in the series, or this and future events in the series?";
+"deleteREAllAndFollowText" = "Would you like to delete all events in the series, or future events in the series?";
+"deleteConfirmText" = "Deleted Task/Event can not be restored! Are you sure?";
+"editREInstanceText" = "Would you like to change only this event, all events in the series, or this and future events in the series?";
+"wrongChangeREText" = "Sorry, you can not change an instance of Recurring Event to be a Task.";
+"RETimesEditText" = "Please enter the number of repeat times. Or select 'Repeat Forever'. Or go back and select an end date.";
+"introductionText" = "It is expired for SmartTime Beta testing time. Thanks you very much for your co-operation on testing product. Do you want to upgrade a full version of SmartTime Plus?";
+
+"introductionLiteText" = "Upgrade to ST Tasks for full iPhone and Google integration, plus Google Calender sync.\nUpgrade to ST Pro for full integration, sync, plus advanced day/week/month calendars.\nJust tap the \"upgrade\" icon for more info.";
+"introductionBasicText" = "Just tap on \"+\" to start adding tasks and events.\nTap on the \"tool\" icon to set up Google Sync and other features.\nVisit our ST Tasks page to learn more about your product.\n\nThanks, and enjoy!\nThe Left Coast Logic Team.";
+
+"REMakeTaskNotFitText" = "Sorry, this will force tasks to no longer fit because their duration conflicts with the length and repeating of this (and possibly other) Events";
+"taskNotBeFitByREText" = "Sorry, the duration of this task (or some existing tasks) cannot fit into your schedule because of multiple repeating Events.  Suggest you change the duration of this task (or some existing tasks), or change/move some repeating events";
+"cancelText" = "Cancel";
+"autoText" = "Auto";
+"manualText" = "Manual";
+"okText" = "OK";
+"manuallyText" = "Manually";
+"automaticallyText" = "Automatically";
+"dismissText" = "Dismiss";
+"promptMeText" = "Prompt Me";
+"yesText" = "YES";
+"noText" = "NO";
+
+"editRETitleText" = "Edit Recurring Event";
+"deleteREtitleText" = "Delete Recurring Event";
+
+"onlyInsText" = "Only this instance";
+"allEventsText" = "All events in the series";
+"allInsFollowText" = "All following";
+"maybeText" = "Maybe";
+
+"expiredBetaTestingText" = "Expired SmartTime Beta Testing!";
+
+"restoreBrokenLinkErrorMessageText" = "Sorry, the backed up data could not be restored because the link is broken inside!";
+"errorBackupCanNotLaunchMailAppText" = "Sorry, backing up data could not be completed because SmartTime could not launch mail app!";
+"errorSharingCanNotLaunchMailAppText" = "Sorry, sharing data could not be completed because SmartTime could not launch mail app!";
+"allWorkDayText" = "All Work Weekday";
+"allHomeDayText" = "All Home Weekday";
+"allDayText" = "All Day";
+"backupButtonText" = "Backup";
+"backupCellTileText" = "Backup data into email";
+"backupNotesText" = "This feature has been updated with version 2.3 and is no longer backwards compatible.  Thus backups made on versions earlier than 2.3 cannot be restored. However, when you upgrade to 2.3, no changes are made to your existing database so you can then make backups after upgrading.";
+"backupNotesLiteText" = "This will allow you to backup your data and settings into an email and migrate it over to SmartTime Plus versions 3.0 and above.   Simply tap on the hyperlink in the email after you have installed SmartTime Plus.";
+"doneButtonText" = "Done";
+"aText" = "A";
+"bText" = "B";
+"ccText" = "C";
+"dText" = "D";
+"eText" = "E";
+"fText" = "F";
+"gText" = "G";
+"hText" = "H";
+"iText" = "I";
+"jText" = "J";
+"kText" = "K";
+"lText" = "L";
+"mText" = "M";
+"nText" = "N";
+"oText" = "O";
+"pText" = "P";
+"qText" = "Q";
+"rText" = "R";
+"sText" = "S";
+"tText" = "T";
+"uText" = "U";
+"vText" = "V";
+"wText" = "W";
+"xText" = "X";
+"yText" = "Y";
+"zText" = "Z";
+
+"janText" = "Jan";
+"febText" = "Feb";
+"marText" = "Mar";
+"aprText" = "Apr";
+"mayText" = "May";
+"junText" = "Jun";
+"julText" = "Jul";
+"augText" = "Aug";
+"sepText" = "Sep";
+"octText" = "Oct";
+"novText" = "Nov";
+"decText" = "Dec";
+
+"sunText" = "Sun";
+"monText" = "Mon";
+"tueText" = "Tue";
+"wedText" = "Wed";
+"thuText" = "Thu";
+"friText" = "Fri";
+"satText" = "Sat";
+"amText" = "AM";
+"pmText" = "PM";
+"minText" = "min";
+"hrsText" = "hrs";
+
+"popupTitleText" = "Pop Up";
+"emailTitleText" = "Email";
+
+"contextWDayCellText" = "   Weekday";
+"contextWEndCellText" = "   Weekend";
+
+"minutesText" = "minutes";
+"hoursText" = "hours";
+"daysText" = "days";
+"weeksText" = "Weeks";
+
+"worktimeViewTitleText" = "Work Time";
+"hometimeViewTitleText" = "Home Time";
+"eventtimeViewTitleText" = "Event Time";
+"deadlineText" = "Deadline";
+
+"weekdayStartCellText" = "Weekday Starts";
+"weekdayEndCellText" = "Weekday Ends";
+
+"weekendStartCellText" = "Weekend Starts";
+"weekendEndCellText" = "Weekend Ends";
+
+"todayText" = "Today";
+"tomorrowText" = "Tomorrow";
+"twoWeeksText" = "2 Weeks";
+"specifiedText" = "Specified";
+"startsText" = "Starts";
+"endsText" = "Ends";
+"repeatText" = "Repeat";
+"untilText" = "Until";
+"foreverText" = "Forever";
+
+"generalSettingSectionText" = "General";
+"smarttimeSettingSectionText" = "Smart Time";
+"defaultValuesSettingSectionText" = "Settings for New Tasks";
+"settingBackgroundStyleText" = "Background Style";
+"settingProjectNameText" = "Calendars";
+"settingWorkTimeText" = "Work Time";
+"settingHomeTimeText" = "Home Time";
+
+"settingAutoBumpTaskText" = "Auto bump tasks";
+
+"settingAutoBumpTaskONText" = "ON: during app startup, tasks that are not completed will be automatically rescheduled. ";
+"settingAutoBumpTaskOFFText" = "OFF: during app startup, tasks that are not completed will not be automatically rescheduled.";
+
+"settingAutoBumpDeadlineText" = "Auto bump deadlines";
+"settingAutoBumpDeadlineONText" = "ON: deadlines of tasks may be automatically expanded when creating or modifying tasks.";
+"settingAutoBumpDeadlineOFFText" = "OFF: warn user for any passing deadline when creating or modifying tasks.";
+
+"cleanOldDateTitleText" = "Clean data older than";
+"neverText" = "Never";
+
+"durationText" = "Duration";
+"contextText" = "Context";
+"projectText" = "Calendar";
+//"editProjectText" = "View And Sync";
+
+"locationText" = "Location";
+
+"sortedByaddressText" = "Sort By Address";
+"sortedByContactText" = "Sort By Contact";
+
+"doTodayText" = "Do Today";
+"nothingToDoText" = "Nothing to do?";
+"nothingDoneText" = "Nothing done today!";
+"lclSeverErrorMsg" = "SmartTime tried to connect to the LCL server but was unable to. This may be a temporary server hiccup; try to refresh your Event Alert in a few minutes.  If the problem continues, contact supportleftcoastlogic.com and we'll get it sorted out for you.";
+
+"deleteAlertFailedText" = "Delete Alerts Failed!";
+"updateAlertFailedText" = "Update Alerts Failed!";
+
+"dayUnitText" = "( days )";
+"titleText" = "Title";
+"notesText" = "Notes";
+"gcalNameText" = "GCal Name";
+"mapGCalToProjectErrorTitleText" = "Couldn't map GCal to Calendar:";
+"mapGCalToProjectErrorMEssageText" = "Sorry! This GCal's name has been used for another Calendar already. Please chose another for your mapping.";
+"untilDueText" = "Until Due";
+"repeatTimesText" = "Repeat Times";
+"repeatForeverText" = "Repeat Forever";
+
+"doneHistoryText"= "Done History";
+
+"repeatOnText" = "Repeat On";
+"sunOptText" = "    S";
+"monOptText" = "    M";
+"tueOptText" = "    T";
+"wedOptText" = "    W";
+"thuOptText" = "    T";
+"friOptText" = "    F";
+"satOptText" = "    S";
+"repeatByText" = "Repeat By";
+"dayOfMonthText" = "Day of the month                  ";
+"dayOfWeekText" = "Day of the week                    ";
+"repeatEveryText" = "Repeat Every";
+"repeatTypeText" = "Repeat Types";
+"contextsText" = "Contexts";
+"stylesText" = "Styles";
+"weekUnitText" = "week(s)";
+"monthUnitText" = "month(s)";
+"yearUnitText" = "year(s)";
+
+"oneWaySTToGCalMsgText" = "This will store your data from SmartTime into your Google Calendars.";
+"twoWaySTAndGCalMsgText" = "This will synchronize your data in SmartTime two-ways with your Google Calendars.";
+"oneWayGCalToSTMsgText" = "This will restore data from your Google Calendars to SmartTime. It will keep historical data on GCal.";
+
+"oneWaySTToGCalMsg4LiteText" = "This will store your default SmartTime Events into your default Google Calendar.";
+"twoWaySTAndGCalMsg4LiteText" = "This will synchronize your default SmartTime Events two-ways with your default Google Calendar.";
+"oneWayGCalToSTMsg4LiteText" = "This will restore recent and future Events from your default Google Calendar to our default SmartTime Events. It will keep historical data on GCal.";
+"weedStartDayNotesMsg" = "*Note: change will be reflected after restarting SmartTime.";
+
+"applyFilterText" = "Apply Filter";
+"keyWordText" = "Enter key word for searching";
+"taskText" = "Task";
+"eventText" = "Event";
+"workText" = "Work";
+"homeText" = "Home";
+"typeStrText" = "Type";
+
+"contactsText" = "Contacts";
+
+"alertBeforeText" = "Alert Before";
+"alertByText" = "Alert by";
+"SMSText" = "SMS";
+"smsButtonText"=  "SMS                                                       ";
+"popupText" = "  iPhone Calendar alert via Google Sync";
+"emailText" = "Email                                                     ";
+"specifiedTimeText" = "At specified time";
+
+"alertText" = "Alerts";
+"addText" = "Add...";
+"onDateEventText" = "At time of event";
+"beforeText" = "before";
+"APNSText" = "Push";
+"popUpText" = "Pop-up";
+"pushInformation" = "Push information" ;
+"pushInformationMsg" = "Please note in this version, Push alerts only work with normal Events and Tasks, not Repeating Events.";
+"donotShowText" = "DON'T SHOW";
+"pushRequireMsg" = "Push (requires internet)                     ";
+"localNotificationMsg" = "Pop-up Alert	                                  ";
+"alertRequireMsg" = "Via Google... (requires  Google account)";
+"taskPushHintMsg" = "Push Alerts for Tasks are based upon the time that you specify above.\n\nTo receive Push Alerts, your device must be either connected to a cell network or turned on and connected to the internet.";
+"taskPushHintOS4Msg" = "Pop-up Alert for Tasks are based upon the time that you specify above.";
+
+"doneTodayButtonText" = "Done Today";
+"hideDoneTodayButonText" = "Hide Done Today";
+"showDoneTodayButonText" = "Show Done Today";
+
+"smartText" = "Smart";
+"calendarText" = "Calendar";
+"focusText" = "Focus";
+"markDoneText" = "MarkDone";
+"deferText" = "Defer";
+"duplicateText" = "Duplicate";
+"exitFilterText" = "Exit Filter";
+"historyText"= "History";
+"nextdayText" = "Next Day";
+"nextweekText" = "Next Week";
+"launchMapText" = "Launch Maps";
+"phoneContactText" = "Phone Contact";
+"sharingTaskText" = "Share Task/Event";
+"smartViewText" = "Smart View";
+"calendarViewText" = "Calendar View";
+"phoneErrText" = "Sorry, could not call the contact because of either no phone number or invalid call number format!" ;
+"phoneNumberText" = "Call Number";
+"sendSmsText" = "Send SMS";
+"smsErrText" = "Sorry, could not SMS to the contact because of either no phone number or invalid call number format!" ;
+"selecAtPhoneNumberText" = "Select a phone number";
+
+"aboutUsText" = "About Us";
+"settingsText" = "Settings";
+"viewsText" = "Views";
+"doneEventConfirmationText" = "Done event confirmation";
+"doneEventWarningMessage" = "The Event will be removed from the time line and placed into History. Are you sure?";
+"noSupportPlatformMsg" = "Sorry! The device does not support this action.";
+"backText" = "Back";
+"selectActionText" = "Select action:";
+"upgradeToSTProText" = "Upgrade to ST Pro";
+"upgradeToSTTaskText" = "Upgrade to ST Tasks";
+"alsoByLCLText" = "Also By Left Coast Logic";
+"alsoByLCLBriefText" = "Also by LCL >>";
+"deleteConfirmTitleText" = "Delete Confirmation";
+
+"titleGuideText" = "Title                 Tap or Type";
+"noneText" = "None";
+"oneWeekText" = "1 Week";
+"oneMonthText" = "1 Month";
+"hometimeText" = "Home Time";
+"worktimeText" = "Work Time";
+"whenText" = "When";
+"suggestedTimeText" = "Suggested Time: ";
+"addTaskText" = "Add Task";
+"addEventText" = "Add Event";
+"editTaskText" = "Edit Task";
+"editEventText" = "Edit Event";
+"duplicateTaskText" = "Duplicate Task";
+"duplicateEventText" = "Duplicate Event";
+
+"titleLocationText" = "Title/Location";
+"titleGuideWWWText" = "Tap a shortcut, or just type";
+"whatText" = "What";
+"whoText" = "Who";
+"whereText" = "Where";
+"gotoText" = "Go to ";
+"contactText" = "Contact ";
+"getText" = "Get ";
+"writeToText" = "Write to ";
+"meetText" = "Meet " ;
+"deleteText" = "Delete";
+"cleanText" = "Clean";
+
+"appleBlueText" = "Apple Blue";
+"blackOpaqueText" = "Black Opaque";
+"dailyText" = "Daily";
+"weeklyText" = "Weekly";
+"monthlyText" = "Monthly";
+"yearlyText" = "Yearly";
+"syncGuideText" = "Sync Guide";
+"syncGuideMessages" = "Upgrading from 2.3?  Please be sure that your first sync is 1-way SmartTime -> GCal.  For more info, please see our online Sync Guide.";
+"forGcalSyncText" = "For GCal syncing";
+
+//"onDateText" = "At Time";
+"smartSyncGCalText" = "SmartTime <-> GCal";
+"smartToGCalText" = "SmartTime --> GCal";
+"gCalToSmartText" = "GCal --> SmartTime";
+"nonameText" = "No Name";
+"STTasksWelcomMsg" = "Welcome to SmartTime Tasks!";
+"visitText" = "Visit";
+"laterText" = "Later";
+"snoozeText" = "Snooze";
+
+"userNameText" = "User Name:";
+"passwordText" = "Password:";
+
+"_autoText" = "Auto";
+"_manualText" = "Manual";
+"_okText" = "OK";
+"_cancelText" = "Cancel";
+"_yesText" = "YES";
+"_deleteFromGCalText" = "Delete from GCal";
+"_insertToSTText" = "Insert to ST";
+
+"_notFitText" = "cannot fit into the schedule";
+"_makeNotFitText" = "make others not fit into the schedule";
+"_syncErrText" = "The following tasks/events were failed to add/update into SmartTime because";
+"_syncFailureText" = "Google server error - Please try again";
+"_syncTryLaterText" = "Please re-try the sync later";
+"_syncErrTitleText" = "Google Calendar Sync - Error";
+"_syncWarningTitleText" = "SmartTime - Warning";
+"_syncSuccessText" = "Sync Complete!";
+"_syncSuccessTitleText" = "Google Calendar Sync";
+"_eventCalendarTitleText" = "SmartTime Events";
+"_taskCalendarTitleText" = "SmartTime Tasks";
+"_onewayST_GCalText" = "1-way Sync ST->GCal";
+"_calendarDeleteConfirmText" = "WARNING! One-way sync will delete ALL historical data and settings on your Google calendars because SmartTime does not keep historical data. Are you sure you want to delete all data in your mapped Google calendars and replace it with the current data in SmartTime?";
+
+"_cancelSyncText" = "Cancel Sync";
+"_stDeleteConfirmText" = "Are you sure you want to delete all existing data in SmartTime and replace it with the data from GCal?";
+"_onewayGCal_STText" = "1-way Sync GCal->ST";
+"_invalidUserNameNPasswordText" = "User name and password are invalid. Please specify valid ones in Settings";
+"_gcalAccountErrTitleText" = "Google Calendar Account Error";
+"_syncProgressTitleText" = "in progress...";
+"_plsWaitText" = "Please wait...";
+"_unreconcilableErrText" = "Unreconcilable tasks/events due to last sync:"; 
+"_twowayST_GCalText" = "2-way Sync ST<->GCal";
+
+"_noEventCalendar2SyncText" = "There is no corresponding mapped Event Calendar in Google to sync";
+"_noTaskCalendar2SyncText" = "There is no corresponding mapped Task Calendar in Google to sync";
+"_noCalendar2SyncText" = "There is no mapped Google Calendars to sync. Please specify the mapping in Settings";
+"_noDefaultCalendar2SyncText" = "There is default Google Calendar to sync. Please create it in Google";
+
+"_readOnlyGCalText" = "Warning: The shared calendar [%SHARED_CAL%] is read-only. Any changes you make to it in SmartTime will not sync back to GCal";
+"_note4ReadOnlyGCalText" = "Note: Some shared calendars are read-only. Any changes you make in SmartTime to those calendars will not sync back to GCal";
+
+"_okAuthText" = "User name and password are correct";
+"_koAuthText" = "User name or password is incorrect. Please specify valid ones";
+"_checkAccountValidity" = "Check Validity";
+
+"_error_1009Text" = "No Internet connection.";
+"_error304Text" = "The resource hasn't changed since the time specified in the request's If-Modified-Since header";
+"_error400Text" = "Invalid request URI or header, or unsupported nonstandard parameter";
+"_error401Text" = "Authorization required";
+"_error403Text" = "Unable to authenticate and authorize.\nPlease check for your valid GCal account.";
+"_error404Text" = "Resource (such as a feed or entry) not found";
+"_error409Text" = "Specified version number doesn't match resource's latest version number";
+"_error500Text" = "Internal error. This is the default code that is used for all unrecognized errors";
+
+"noInternetConnectionText" = "No Internet connection!";
+"noInternetConnectionMsg" = "It seems you are not connected to the internet. Please check your connection and try again.";
+
+"settingGCalAcountText" = "Google Calendar Acount";
+"settingSyncTypeText" = "Direction";
+
+"calToProjectMapText" = "Sync Setup";
+"gcalSyncingText" = "GCal Syncing";
+"restoreFromGalText" = "Restore from GCal";
+"deletingWarningText" = "Warn before Delete";
+"quickStartSyncGuideText" = "Quick Start";
+
+"deleteDupTitleText" = "Delete suspected duplicates";
+"finishedText" = "Finished!";
+"applicationBadgeText" = "Application badge for";
+"allTasksText" = "All Tasks";
+"tasksWithDueText" = "All tasks with due";
+"tasksWithNoDueText" = "Tasks due by tomorrow";
+"weekStartDayText" = "Week start day";
+"sundayText" = "Sunday";
+"mondayText" = "Monday";
+"warningText"= "Warning!";
+"deleteDupMsg" = "This may remove some items that are not duplicates, and cannot be reversed.  Proceed?";
+"workDaysText" = "Work Days";
+"snoozeDurationText" = "Snooze duration";
+
+"tapToEnterCalNameText" = "Tap here to enter GCal name";
+"selectGCalNameInListText" = "Or select Gal name in list";
+"mapGCalToProjectForEventText" = "Map GCal name to Calendar for Event";
+"mapGCalToProjectForTaskText" = "Map GCal name to Calendar for Task";
+"unMapGCalText" = "Unmap by \'Clear mapping\'";
+"clearGCalMappingText" = "Clear mapping";
+
+"gCal_ProjectText" = "Calendar <-> GCal";
+
+"editMappingText" = "Edit Mapping";
+
+"dueStartText" = "Due Start";
+"horizonsText" = "Horizons";
+
+"guideContentText" = "If you do not already have a Google Calendar account, please create one at www.google.com/calendar\n\nThen, in SmartTime:\n\n\
+1. Input your account settings\n\
+2. Choose your sync type\n\
+3. Map your calendars\n\
+4. Select your sync start and end time\n\n\
+Note: \n\n\
+If you are using 1-way sync from ST->GCal and map with non-existing Google Calendars, SmartTime will automatically create those calendars for you the first time you perform a sync.\n\
+The sync start time will always begin at 00:00:00 on Sunday of Week, or in day 1 of Month, or in day 1 of Year, \
+and the sync end time will always end at 23:59:59 on Saturday of Week, or in day end of Month, or in day end of Year\n\n\
+Tips:\n\n\
+SmartTime logic combines Tasks and Events into one view then organizes them for you. To synchronize with Google Calendar, you can map to two separate GCal calendars for each SmartTime Calendar - one for tasks, and one for events. \
+For example, your \"Family\" project could map to two GCal calendars called \"Family Tasks\" and \"Family Events.\"  If you already have calendars in GCal, SmartTime will locate those for you and give you the option to map Calendars to those. \n\n\
+Remember:\n\n\
+If you change the name of a calendar in GCal, you will need to manually re-map it to the corresponding SmartTime Calendar.\n\n\
+For more information: visit http://www.leftcoastlogic.com/sync";
+
+"guideContent4LiteText "= 
+"If you do not already have a Google Calendar account, please create one at www.google.com/calendar\n\nThen, in SmartTime:\n\n\
+1. Input your Account settings\n\
+2. Choose Your Sync Type\n\n\
+The Basics:\n\n\
+SmartTime logic combines Tasks and Events into one view then organizes them for you. In this free version, you can synchronize Events from \
+your default Calendar with the events in your default Google Calendar.  In SmartTime, your default Calendar is \"SmartTime\".  In Google Calendar, \
+your default Calendar is typically \"[UserName]gmail.com\".  SmartTime will automatically sync the two calendars.\n\n\
+Quick Start:\n\n\
+1) Tap \"Google Calendar Account\" and input your Google UserName and Password.\n\
+2) Tap \"Check validity\" and wait a few seconds for confirmation that the info you entered is correct.\n\
+3) That's it!  Sync.  We suggest two-way to combine the Events from the default calendars in SmartTime and Google Calendar.\n\n\
+Note:\n\n\
+1) To sync both Events and To Do's for all of your SmartTime Calendars, upgrade to SmartTime Plus.\n\
+2) Importing or syncing large databases from your Google Calendar can adversely affect performance.";
+
+"alertNoteMsgText" = "• To receive SMS Alerts via GCal, please set up your mobile device in GCal -> Settings -> Mobile Setup.\n\
+• To receive Pop-up alerts via iPhone Calendar, please set use the \"Pop-up\" choice.  You will need to use Google Sync services to connect.  For more information, see http://leftcoastlogic.com/sync";
+
+"alertTimeText" = "Alert time";
+"timeText" = "Time";
+"dueDateText" = "Due Date";
+"alertByDueDateText" = "Alert by Due Date";
+"alertBySpecifiedDateText" = "Alert by specified Date";
+
+"monthText" = "Month";
+"loadingText" = "Loading...";
+"goText" = "Go";
+"gotoDateText" = "Goto Date";
+"filterText" = "Filter";
+"quickAddText" = "Quick Add";
+"applyText" = "Apply";
+"exitText" = "Exit";
+"saveText" = "Save";
+"nameText" = "Name";
+"startText" = "Start";
+"newTaskText" = "New Task";
+"newEventText" = "New Event";
+
+"STText" = "Finally, an Organizer with a Brain. SmartTime uses advanced logic to organize and prioritize tasks and appointments, and integrate them into one view.\n\nTap to create a task - SmartTime finds time for you. Keyboard optional. Then reorganize on the fly, with your fingertips.\n\nMultiple views: Smart, Day, Week, Month.\n\nIntegrated with your iPhone and syncs with Google Calendar as well.";
+"STuText" = "The perfect companion for SmartTime, SmartTunes is the ultimate media console. Listen to over 200 WiFi stations, in crystal clear HiFi. Select by genre, or by location. Use our ClockRadio feature to wake up to music, or our unique \"Sleep\" mode to turn the music off after you nod off...\nChoose from a variety of skins, to suite your personality or mood of the day...or night";
+"FFText" = "Take pictures of your friends and turn them into goofy, ghastly, or gorgeous muses with our image library of over 70 items of flair.\n\nThen use our built-in Google Mail plug-in to send directly to your friends. Or save to your Photos folder for showing or forwarding.";
+"S2QText" = "The iPhone keyboard can take some practice. Now you can master the keyboard while you also master the universe! \n\nShoot the letters by typing them as they fall from the sky. Move to upper levels and type words to destroy the space ships.\n\nFive challenging levels and two different modes: Beginner and \"Top Gun.\"";
+
+"syncBeginThisWeekText" = "This Week";
+"syncLastWeekText" = "Last Week";
+"syncLastMonthText" = "Last Month";
+"syncLast3MonthText" = "Last 3 Months";
+"syncLastYearText" = "Last Year";
+"syncAllPreviousText" = "All Previous";
+
+"syncEndThisWeekText" = "This Week";
+"syncNextWeekText" = "Next Week";
+"syncNextMonthText" = "Next Month";
+"syncNext3MonthText" = "Next 3 Months";
+"syncNextYearText" = "Next Year";
+"syncAllForwardText" = "All Forward";
+
+"syncStartText" = "Sync Start";
+"syncEndText" = "Sync End";
+
+"dueText" = "Due";
+"titleTipText" = "Just fill in the title.\nYou can do the rest later";
+"cannotUpdateAlertMsg" = "SmartTime could not up-date your alerts on our server for notification service.  Your device may not receive any Push alerts that you may have created.  Please confirm internet connection and try again.!";	
+"noInternetForPushMsg" = "It seems you are not connected to the internet. Your device may not receive any Push alerts that you may have created.  Please check your connection and try again!";	
+"syncFromToText" = "   Sync From               Sync To";
+
+"smartSyncText" = "SmartSync";
+"expertSyncText" = "ExpertSync";
+"mapText" = "Map";
+"unmapText" = "Un-map All";
+"inheritGCalText" = "ST Calendar inherits GCal name?";
+"stProjectText" = "SmartTime Calendar";
+"withGCalText" = "with Google Calendar";
+"smartSyncHintText" = "Map Events from your SmartTime Calendars automatically.\n1) Just tap on \'Map\' button to automatically map to Google Calendars. Uncheck to remove any calendar you don't want to sync.\n2) Choose whether to have your ST Calendar inherit the name of the GCal Calendar. This is handy if you are bringing in GCal data for the first time.";
+"smartSyncTipText" = "SmartSync Tips";
+"dontShowText" = "Don't Show";
+"expertSyncHintText" = "1) Manually Map both Events and Tasks from each of your Calendars to individual Google Calendars.\n2) Beware that SmartTime takes control of all Task calendars. See our sync guide for details.\n3) Remember to name your Calendars first in GCal, then select them from here.";
+"expertSyncTipText" = "ExpertSync Tips";
+"nothingToMapText" = "There is no Google calendar to map. Please check for your valid GCal account, or back to \'Settings\' and try \'Mapping\' again later if it is valid."; 
+
+"syncWindowText" = "Sync Window";
+"syncWindowOption1Text" = "3 W";
+"syncWindowOption2Text" = "3 M";
+"syncWindowOption3Text" = "6 M";
+"autoMapText" = "Auto Map";
+"connectText" = "Refresh";
+"gcalEventMappingText" = "GCal Event Mapping";
+"gcalTaskMappingText" = "GCal Task Mapping";
+"mappingHeaderText" = "   ST Calendar         Google Calendar";
+"nothingToRefreshText" = "There is no Google calendar to map. Please check for your valid GCal account, or try 'Refresh' again if it is valid.";
+"nothingToAutoMapText" = "There is no Google calendar to map. Please check for your valid GCal account, or try 'Refresh' again then 'AutoMap' if it is valid.";
+
+"projectNameText" = "Calendar Name";
+"mappedGCalNameText" = "Mapped GCal Name";
+"useGCalNameText" = "Use GCal Name";
+"projectEditText" = "Calendar Edit";
+"eventMapHintText" = "New users - Map Events Automatically!\n\
+1) Tap \'Auto Map\'.\n\
+2) Tap each Calendar to select or deselect for mapping.\n\
+3) Tap the arrow to change your Calendar names.\n\n\
+Expert users - More flexibility!\n\
+1) Tap on \'Refresh\' to retrieve calendars.\n\
+2) Move calendars to map.\n\
+3) Tap on \'Task\' Menu to map tasks also; see our Sync Guide for details:";
+
+"taskMapHintText" = "You can also sync SmartTime Tasks to \
+separate \'Task\' calendars in GCal.\n\n\
+Be aware that SmartTime will \"take control\" of all \
+calendars in GCal that you map to SmartTime Tasks. \
+After you sync, SmartTime will treat all items in \
+those calendars as tasks and will MOVE them to find \
+the most efficient time slot. If you mistakedly map \
+a SmartTime Task to one of your Google Event calendars, \
+you will lose the specific dates and times of those appointments.\n\
+Please visit our Sync Guide:";
+
+"quickAddPassDeadlineErrorMgs" = "Sorry! This will causes some tasks to be passed their deadines!";
+
+"weekText" = "Week";
+
+"workDayStartsText" = "Work Day Starts";
+"workDayEndsText" = "Work Day Ends";
+"weekendDayNeededMsg" = "Sorry! Has no room for Weekend days. Please select again!";
+"nextText" = " next ";
+
+//"febText" = "February 2009";
+
+//EK Sync
+// "settingSyncTypeText" = "Direction";
+"_calendarMappingText" = "Calendar Mapping";
+"_eventSyncText" = "Event Sync";
+"_iCalMappingHeaderText" = "ST Calendar       iPhone Calendar";
+"_mapAllCalendarsText" = "Map All Calendars";
+"_2wayText" = "Two-Way";
+"_importText" = "Import";
+"_exportText" = "Export";
+"_colorText" = "Color";
+"_iPhoneCalendarsText" = "iPhone Calendars";
+"_plsSelectCalToSyncText" = "Please select calendars to sync";
+
+//Toodledo Sync
+
+
+
+"tasksSyncText" = "Tasks sync";
+"TDSyncSetupText" = "Toodledo Sync setup";
+"TDSyncText" = "Toodledo Sync";
+"toodledoAccountSetupText" = "Toodledo Account setup";
+
+"lUserNameText"="Username";
+"paswordText"="Password";
+"syncTypeText"="Sync Type";
+"checkValidityText" = "Check Validity";
+"successText"="Success!";
+"accountValidateMsg"="Your account is correct!";
+"failedText"="Failed!";
+"accountInValidateMsg" = "Your input account is invalid! Please specify again.";
+
+//new
+"calendarDetailText"="Calendar detail";
+"newCategoryText"="New Calendar";
+"projectsText"="Calendars";
+"synchronizationText"="Synchronization";
+"iPadCalendarSyncText"="iPhone Calendar"; 
+"syncNowText"="Sync Now";
+
+"deleteCalendarMsg"="This will delete the Calendar and all of the tasks and events that belong to it.  It will also delete the corresponding Calendar and all of its data, from your iPhone calendar. Proceed?";
+"newProjectText"="New Calendar";
+"editProjectText"="Edit Calendar";
+"setAsDefaultCaledarText"="Set as default Calendar";
+"enterCalendarNameHereText"="Enter a new calendar name here!";
+"unHideThisCalendarText"="Unhide this calendar";
+"selectColorText"="Select color";
+"deleteCalendarErrorMsg"="Sorry! You can not delete the default calendar!";
+"showAllText"="Show all";
+"autoSyncText"="Auto sync";
+
+"alertFromText"="Alert before from";
+"onDateOfDueText"="On date of Due";
+"onDateOfStartText"="On date of Start";
+"onDateText"="On date";
+"ofDueText"="Of Due";
+"ofStartText"="Of Start";
+"ofEventText"="Of event";
+"repeatFromDueDateText"="Repeat from Due date";
+"repeatFromCompletionDateText"="Repeat from completion Date";
+"syncEventOnlyText"="Only Events to iOS Cal.";
+
+"ST41FirstPopUpMsg"="Welcome to SmartTime!\
+- SmartTime synchronizes Events with your iPhone calendar, and can either integrate Tasks into your iPhone calendar, or sync them with the Reminders app.\
+- Before you sync for the first time, be sure to select the sync source of your iPhone calendar.\
+- For more info, please read our Sync Guide\
+- Protect your data by frequently backing up SmartTime!";
+
+"byLCLText"="By LCL";
+
+"beginAutoSyncNowText"="Begin auto sync now?";
+"STAutoSyncMsg"="SmartTime will sync automatically as you make changes while the app is running.";
