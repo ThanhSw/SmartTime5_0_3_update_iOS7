@@ -416,7 +416,7 @@ extern NSString *syncingText;
                         [task deleteFromDatabase];
                         
                         if (task.toodledoID>0) {
-                            taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",task.toodledoID];
+                            taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)task.toodledoID];
                         }
                         
                         [taskmanager.taskList removeObject:task];
@@ -597,7 +597,7 @@ extern NSString *syncingText;
                 //if (!remoteReminder) {
                     
                     if (localReminder.toodledoID>0) {
-                        taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",localReminder.toodledoID];
+                        taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)localReminder.toodledoID];
                     }
                     
                     if ([localReminder.iCalIdentifier length]>0) {

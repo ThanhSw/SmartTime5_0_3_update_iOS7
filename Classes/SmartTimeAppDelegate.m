@@ -1638,7 +1638,7 @@ extern BOOL _startDayAsMonday;
 		if(fromTheOrder <0 && toTheOrder<0){
 			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks WHERE Task_Completed=0"];
 		}else {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where taskOrder BETWEEN %d AND %d",fromTheOrder,toTheOrder];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where taskOrder BETWEEN %ld AND %d",(long)fromTheOrder,toTheOrder];
 		}
 		
 		sqlite3_stmt *statement=nil;
@@ -1977,13 +1977,13 @@ extern BOOL _startDayAsMonday;
 		
 		NSString *sql;
 		if(fromDate && toDate){
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime BETWEEN %lf AND %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],fromDateTimeInterval,toDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime BETWEEN %lf AND %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],fromDateTimeInterval,toDateTimeInterval];
 		}else if(fromDate) {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime >= %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],fromDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime >= %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],fromDateTimeInterval];
 		}else if(toDate) {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime <= %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],toDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime <= %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],toDateTimeInterval];
 		}else {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0",context==-1?@"%":[NSString stringWithFormat:@"%d",context]];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=0 AND Task_Where LIKE '%@' AND Task_Completed=0",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context]];
 		}
 		
 		sqlite3_stmt *statement=nil;
@@ -2049,13 +2049,13 @@ extern BOOL _startDayAsMonday;
 		
 		NSString *sql;
 		if(fromDate && toDate){
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime BETWEEN %lf AND %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],fromDateTimeInterval,toDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime BETWEEN %lf AND %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],fromDateTimeInterval,toDateTimeInterval];
 		}else if(fromDate) {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime >= %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],fromDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime >= %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],fromDateTimeInterval];
 		}else if(toDate) {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime <= %lf",context==-1?@"%":[NSString stringWithFormat:@"%d",context],toDateTimeInterval];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0 AND Task_StartTime <= %lf",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context],toDateTimeInterval];
 		}else {
-			sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0",context==-1?@"%":[NSString stringWithFormat:@"%d",context]];
+            sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=0 AND Task_IsUseDeadLine=1 AND Task_Where LIKE '%@' AND Task_Completed=0",context==-1?@"%":[NSString stringWithFormat:@"%ld",(long)context]];
 		}
 		
 		sqlite3_stmt *statement=nil;
@@ -2234,9 +2234,9 @@ extern BOOL _startDayAsMonday;
 		if(fromDate && toDate){
 			if(isAllTasks){
 				if(fromDateTimeInterval==todayTimeInterVal){
-					sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=%d AND Task_Name LIKE '%%%@%%' AND (Task_IsUseDeadLine=0 OR (Task_IsUseDeadLine=1 AND Task_DeadLine BETWEEN %lf AND %lf));",Task_Pinned,searchText,fromDateTimeInterval,toDateTimeInterval];
+                    sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=%ld AND Task_Name LIKE '%%%@%%' AND (Task_IsUseDeadLine=0 OR (Task_IsUseDeadLine=1 AND Task_DeadLine BETWEEN %lf AND %lf));",(long)Task_Pinned,searchText,fromDateTimeInterval,toDateTimeInterval];
 				}else {
-					sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=%d AND Task_Name LIKE '%%%@%%' AND (Task_IsUseDeadLine=1 AND Task_DeadLine BETWEEN %lf AND %lf);",Task_Pinned,searchText,fromDateTimeInterval,toDateTimeInterval];
+                    sql =[NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks where Task_Pinned=%ld AND Task_Name LIKE '%%%@%%' AND (Task_IsUseDeadLine=1 AND Task_DeadLine BETWEEN %lf AND %lf);",(long)Task_Pinned,searchText,fromDateTimeInterval,toDateTimeInterval];
 				}
 				
 			}else {
@@ -2741,7 +2741,7 @@ extern BOOL _startDayAsMonday;
 	if(initializeDatabaseSucess){
 		// Get the primary key for all tasks.
 		
-		NSString *sql =[NSString stringWithFormat:@"DELETE FROM iVo_Tasks WHERE Task_Project=%d",calendarId];
+        NSString *sql =[NSString stringWithFormat:@"DELETE FROM iVo_Tasks WHERE Task_Project=%ld",(long)calendarId];
 		
 		sqlite3_stmt *statement=nil;
 		// Preparing a statement compiles the SQL query into a byte-code program in the SQLite library.
@@ -3370,7 +3370,7 @@ finish:
 	if(initializeDatabaseSucess){
 		// Get the primary key for all tasks.
 		
-		NSString *sql =[NSString stringWithFormat:@"UPDATE iVo_Tasks SET isHidden=%d WHERE Task_Project=%d",hidden,calendarId];
+        NSString *sql =[NSString stringWithFormat:@"UPDATE iVo_Tasks SET isHidden=%ld WHERE Task_Project=%ld",(long)hidden,(long)calendarId];
 		
 		sqlite3_stmt *statement=nil;
 		// Preparing a statement compiles the SQL query into a byte-code program in the SQLite library.
@@ -3399,7 +3399,7 @@ finish:
 -(void)addTasksToListFromCalendarId:(NSInteger)calendarId{
 	if(initializeDatabaseSucess){
 		
-		NSString *sql = [NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks WHERE Task_Project=%d",calendarId];
+        NSString *sql = [NSString stringWithFormat:@"SELECT Task_ID FROM iVo_Tasks WHERE Task_Project=%ld",(long)calendarId];
 		sqlite3_stmt *statement=nil;
 		// Preparing a statement compiles the SQL query into a byte-code program in the SQLite library.
 		// The third parameter is either the length of the SQL string or -1 to read up to the first null terminator.        
@@ -3753,7 +3753,7 @@ finish:
                         taskmanager.currentSetting.deletedICalEvents=[taskmanager.currentSetting.deletedICalEvents stringByAppendingFormat:@"|%@",task.iCalIdentifier];
                     }
                     if (task.toodledoID>0) {
-                        taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",task.toodledoID];
+                        taskmanager.currentSetting.toodledoDeletedTasks=[taskmanager.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)task.toodledoID];
                     }                    
                     
                     [taskmanager.currentSetting update];

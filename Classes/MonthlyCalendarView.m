@@ -219,7 +219,7 @@ extern NSString* _monthNames[12];
 
 -(NSString *) getMonthTitle
 {
-	return [NSString stringWithFormat:@"%@ %4d", _monthNames[currentMonth-1], currentYear];
+    return [NSString stringWithFormat:@"%@ %4ld", _monthNames[currentMonth-1], (long)currentYear];
 }
 
 //daylight saving fix
@@ -499,7 +499,7 @@ extern NSString* _monthNames[12];
 	
 	NSInteger nDays = [lastDateComps day];
 	
-	printf("days: %d\n", nDays);
+    printf("days: %ld\n", (long)nDays);
 	
 	BOOL sameMonthYear = (dayMonth == month && dayYear == year);
 	
@@ -511,7 +511,7 @@ extern NSString* _monthNames[12];
 		cell.year = year;
 		cell.gray = NO;
 		
-		printf("%d - %4d/%2d/%2d\n", startIndex + i, cell.year, cell.month, cell.day);
+        printf("%ld - %4ld/%2d/%2d\n", startIndex + i, (long)cell.year, cell.month, cell.day);
 
 		if (cell.day == todayDay && cell.month == todayMonth && cell.year == todayYear)
 		{

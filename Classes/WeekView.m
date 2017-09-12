@@ -186,7 +186,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	
 	sunLabel=[[UILabel alloc] initWithFrame:CGRectMake(offsetX + 2, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	sunLabel.backgroundColor=[UIColor clearColor];
-	sunLabel.text=[NSString stringWithFormat:@"%d", self.sunMonthDay];
+    sunLabel.text=[NSString stringWithFormat:@"%ld", (long)self.sunMonthDay];
 	sunLabel.font=[UIFont boldSystemFontOfSize:14];
 	sunLabel.textColor=[UIColor whiteColor];
 	sunLabel.textAlignment=NSTextAlignmentCenter;
@@ -196,7 +196,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	
 	monLabel=[[UILabel alloc] initWithFrame:CGRectMake(cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	monLabel.backgroundColor=[UIColor clearColor];
-	monLabel.text=[NSString stringWithFormat:@"%d", self.monMonthDay];
+    monLabel.text=[NSString stringWithFormat:@"%ld", (long)self.monMonthDay];
 	monLabel.font=[UIFont boldSystemFontOfSize:14];
 	monLabel.textColor=[UIColor whiteColor];
 	monLabel.textAlignment=NSTextAlignmentCenter;
@@ -207,7 +207,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	tueLabel=[[UILabel alloc] initWithFrame:CGRectMake(2*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	tueLabel.backgroundColor=[UIColor clearColor];
-	tueLabel.text=[NSString stringWithFormat:@"%d", self.tueMonthDay];
+    tueLabel.text=[NSString stringWithFormat:@"%ld", (long)self.tueMonthDay];
 	tueLabel.font=[UIFont boldSystemFontOfSize:14];
 	tueLabel.textColor=[UIColor whiteColor];
 	tueLabel.textAlignment=NSTextAlignmentCenter;
@@ -230,7 +230,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	thuLabel=[[UILabel alloc] initWithFrame:CGRectMake(4*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	thuLabel.backgroundColor=[UIColor clearColor];
-	thuLabel.text=[NSString stringWithFormat:@"%d", self.thuMonthDay];
+    thuLabel.text=[NSString stringWithFormat:@"%ld", (long)self.thuMonthDay];
 	thuLabel.font=[UIFont boldSystemFontOfSize:14];
 	thuLabel.textColor=[UIColor whiteColor];
 	thuLabel.textAlignment=NSTextAlignmentCenter;
@@ -241,7 +241,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	friLabel=[[UILabel alloc] initWithFrame:CGRectMake(5*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	friLabel.backgroundColor=[UIColor clearColor];
-	friLabel.text=[NSString stringWithFormat:@"%d", self.friMonthDay];
+    friLabel.text=[NSString stringWithFormat:@"%ld", (long)self.friMonthDay];
 	friLabel.font=[UIFont boldSystemFontOfSize:14];
 	friLabel.textColor=[UIColor whiteColor];
 	friLabel.textAlignment=NSTextAlignmentCenter;
@@ -252,7 +252,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 	satLabel=[[UILabel alloc] initWithFrame:CGRectMake(6*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	satLabel.backgroundColor=[UIColor clearColor];
-	satLabel.text=[NSString stringWithFormat:@"%d", self.satMonthDay];
+    satLabel.text=[NSString stringWithFormat:@"%ld", (long)self.satMonthDay];
 	satLabel.font=[UIFont boldSystemFontOfSize:14];
 	satLabel.textColor=[UIColor whiteColor];
 	satLabel.textAlignment=NSTextAlignmentCenter;
@@ -586,7 +586,7 @@ newTask,SmartViewController,isBackFromMonthView, isFilter;
 //											 project7Button.selected?6:-1,project8Button.selected?7:-1,project9Button.selected?8:-1,project10Button.selected?9:-1,
 //											 project11Button.selected?10:-1,project12Button.selected?11:-1];
 
-			NSString *queryClauseWithFormat=[NSString stringWithFormat:@"%@|%d|%d|%d|%d|%d",title?title:@"",taskButton.selected?0:-1,eventButton.selected?1:-1,
+			NSString *queryClauseWithFormat=[NSString stringWithFormat:@"%@|%d|%d|%d|%d",title?title:@"",taskButton.selected?0:-1,eventButton.selected?1:-1,
 											 workButton.selected?1:-1,homeButton.selected?0:-1];
 			
 			taskmanager.filterClause=queryClauseWithFormat;
@@ -1963,15 +1963,15 @@ exitSave:
 	App_Delegate.me.networkActivityIndicatorVisible=YES;
 	[self setupDisplayList:self.currentDisplayDate];
 
-	sunLabel.text=[NSString stringWithFormat:@"%d", self.sunMonthDay];
-	monLabel.text=[NSString stringWithFormat:@"%d", self.monMonthDay];
-	tueLabel.text=[NSString stringWithFormat:@"%d", self.tueMonthDay];
+    sunLabel.text=[NSString stringWithFormat:@"%ld", (long)self.sunMonthDay];
+    monLabel.text=[NSString stringWithFormat:@"%ld", (long)self.monMonthDay];
+    tueLabel.text=[NSString stringWithFormat:@"%ld", (long)self.tueMonthDay];
 	
 	[monthNameButton setTitle:self.monthName forState:UIControlStateNormal];
 
-	thuLabel.text=[NSString stringWithFormat:@"%d", self.thuMonthDay];
-	friLabel.text=[NSString stringWithFormat:@"%d", self.friMonthDay];
-	satLabel.text=[NSString stringWithFormat:@"%d", self.satMonthDay];
+    thuLabel.text=[NSString stringWithFormat:@"%ld", (long)self.thuMonthDay];
+    friLabel.text=[NSString stringWithFormat:@"%ld", (long)self.friMonthDay];
+    satLabel.text=[NSString stringWithFormat:@"%ld", (long)self.satMonthDay];
 	
 	timeFinderView.today = -1; 
 

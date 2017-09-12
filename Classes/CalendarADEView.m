@@ -130,7 +130,7 @@ extern NSMutableArray *projectList;
 		CalendarADE *ade = [adeList objectAtIndex:currentIndex];
 		NSInteger key = ade.key;
 		
-		printf("ADE key: %d\n", key);
+        printf("ADE key: %ld\n", (long)key);
 		
 		[_smartViewController resetQuickEditMode:!selected taskKey:key];	
 		

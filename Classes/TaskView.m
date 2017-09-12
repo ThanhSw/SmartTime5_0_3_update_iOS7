@@ -791,7 +791,7 @@ extern double timeInervalForExpandingToFillRE;
 	//dueRec.origin.x -= dueViewWidthAdj;
 	//dueRec.size.width += dueViewWidthAdj;	
 	
-	NSString *s = [NSString stringWithFormat:@"%d",dueLeft];
+    NSString *s = [NSString stringWithFormat:@"%ld",(long)dueLeft];
 	//UIFont *font = [UIFont fontWithName:@"Helvetica-Bold" size:10];
 	UIFont *font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
 	

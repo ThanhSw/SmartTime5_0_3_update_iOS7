@@ -735,14 +735,14 @@ finished:{}
 		EKRecurrenceDayOfWeek *dayOfWeek = [iCalReRule.daysOfTheWeek objectAtIndex:i];
 		
 		if (!repeatOn) {
-			repeatOn=[NSString stringWithFormat:@"%d",dayOfWeek.dayOfTheWeek];
+            repeatOn=[NSString stringWithFormat:@"%ld",(long)dayOfWeek.dayOfTheWeek];
 		}else {
-			repeatOn=[repeatOn stringByAppendingFormat:@"|%d",dayOfWeek.dayOfTheWeek];
+            repeatOn=[repeatOn stringByAppendingFormat:@"|%ld",(long)dayOfWeek.dayOfTheWeek];
 		}
 	}
 	
 	if (iCalReRule.daysOfTheWeek.count==0) {
-		repeatOn=[NSString stringWithFormat:@"%d",[ivoUtility getWeekday:icalEvent.startDate]];
+        repeatOn=[NSString stringWithFormat:@"%ld",(long)[ivoUtility getWeekday:icalEvent.startDate]];
 	}
 	
 	NSInteger repeatBy=0;
@@ -750,7 +750,7 @@ finished:{}
 		repeatBy=(iCalReRule.daysOfTheWeek != nil && iCalReRule.daysOfTheWeek.count > 0)? 1:0;
 	}
 	
-	event.taskRepeatOptions = [NSString stringWithFormat:@"%d/%@/%d", repeatEvery, repeatOn, repeatBy];
+    event.taskRepeatOptions = [NSString stringWithFormat:@"%ld/%@/%ld", (long)repeatEvery, repeatOn, (long)repeatBy];
 
 	if (iCalReRule.recurrenceEnd.endDate || iCalReRule.recurrenceEnd.occurrenceCount>0) {
 		

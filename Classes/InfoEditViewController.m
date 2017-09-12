@@ -242,7 +242,7 @@ extern NSMutableArray	*projectList;
 			break;
 		case SETTING_TIMESREPEAT:{
 			textField.keyboardType=UIKeyboardTypeNumberPad;
-			textField.text =[NSString stringWithFormat:@"%d", [self.editedObject endRepeatCount]];
+            textField.text =[NSString stringWithFormat:@"%ld", (long)[self.editedObject endRepeatCount]];
 		}
 			break;
 		case SETTING_ENDDUEDAYS:{

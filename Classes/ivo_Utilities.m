@@ -424,9 +424,9 @@ NSString* _monthNames[12] = {@"January", @"February", @"March", @"April", @"May"
 	//ILOG(@"[ivo_Utilities createStringFromDate\n");
 	NSString *ret=nil;
 	if(date !=nil){
-			ret= [[NSString stringWithFormat:@"%02d-%02d-%02d",
-					 [self getYear:date],
-					 [self  getMonth:date],
+        ret= [[NSString stringWithFormat:@"%02d-%02ld-%02d",
+               [self getYear:date],
+               (long)[self  getMonth:date],
 					 [self getDay:date]] copy];	
 	}
 	//ILOG(@"ivo_Utilities createStringFromDate]\n");
@@ -454,8 +454,8 @@ NSString* _monthNames[12] = {@"January", @"February", @"March", @"April", @"May"
 	
 	if(date !=nil){
 		if(_is24HourFormat){
-			ret= [[NSString stringWithFormat:@"%02d:%02d ",
-					[self getHour:date],
+            ret= [[NSString stringWithFormat:@"%02ld:%02d ",
+                   (long)[self getHour:date],
 					[self getMinute:date]] copy];	
 		}else {
 			ret= [[[NSString stringWithFormat:@"%02d:%02d ",

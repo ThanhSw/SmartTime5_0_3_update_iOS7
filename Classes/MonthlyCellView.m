@@ -213,7 +213,7 @@ extern BOOL _startDayAsMonday;
 {
 	day = dayValue;
 	
-	dayLabel.text = dayValue>0?[NSString stringWithFormat:@"%d", dayValue]:@"";
+    dayLabel.text = dayValue>0?[NSString stringWithFormat:@"%ld", (long)dayValue]:@"";
 }
 
 - (BOOL)checkToday

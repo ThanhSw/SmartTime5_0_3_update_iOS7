@@ -29,7 +29,7 @@ extern CGFloat _shadowColor[];
 	
 	if (self = [super initWithTask:task])
 	{
-		NSString *eventName = [NSString stringWithFormat:@"[%@ %d]: %@", [ivoUtility createMonthName:self.startTime], [ivoUtility getDay:self.startTime], self.name];
+        NSString *eventName = [NSString stringWithFormat:@"[%@ %ld]: %@", [ivoUtility createMonthName:self.startTime], (long)[ivoUtility getDay:self.startTime], self.name];
 		self.name = eventName;
 		
 		if (task.taskRepeatID > 0)

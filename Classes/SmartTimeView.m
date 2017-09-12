@@ -141,7 +141,7 @@ extern ivo_Utilities *ivoUtility;
 	
 	self.taskList = [taskmanager getTaskListFromDate:nil toDate:nil splitLongTask:NO isUpdateTaskList:YES  isSplitADE:NO];
 	
-	printf("\nSmartView list:%d\n",self.taskList.count);
+    printf("\nSmartView list:%lu\n",(unsigned long)self.taskList.count);
 	//[ivoUtility printTask:self.taskList];
 	
 	[self startFastUpdate];

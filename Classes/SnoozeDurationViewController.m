@@ -47,7 +47,7 @@ extern NSMutableArray *alertList;
 	NSInteger i=1;
 	for (i;i<alertList.count;i++){
 		NSString *str=[alertList objectAtIndex:i];
-		if([str isEqualToString:[NSString stringWithFormat:@"%d",[editedObject snoozeDuration]]]){
+        if([str isEqualToString:[NSString stringWithFormat:@"%ld",(long)[editedObject snoozeDuration]]]){
 			break;
 		}
 	}

@@ -346,7 +346,7 @@ extern NSString *repeatFromCompletionDateText;
 				dayWeekButton.selected=YES;
 			}
 			
-			textField.text=[NSString stringWithFormat:@"%d", repeatEvery];
+            textField.text=[NSString stringWithFormat:@"%ld", (long)repeatEvery];
 			
 			//set default for check list
 			if(self.repeatOn ==nil || [self.repeatOn isEqualToString:@""]){
@@ -404,7 +404,7 @@ extern NSString *repeatFromCompletionDateText;
 				dayWeekButton.selected=YES;
 			}
 			
-			textField.text=[NSString stringWithFormat:@"%d", repeatEvery];
+            textField.text=[NSString stringWithFormat:@"%ld", (long)repeatEvery];
 			
 			//set default for check list
 			if(self.repeatOn ==nil || [self.repeatOn isEqualToString:@""]){
@@ -548,7 +548,7 @@ extern NSString *repeatFromCompletionDateText;
 			//}
 			
 			if(self.pathIndex !=0){
-				[self.editedObject setTaskRepeatOptions:[NSString stringWithFormat:@"%d/%@/%d",[textField.text intValue],self.repeatOn?self.repeatOn:@"",repeatBy]];
+                [self.editedObject setTaskRepeatOptions:[NSString stringWithFormat:@"%d/%@/%ld",[textField.text intValue],self.repeatOn?self.repeatOn:@"",(long)repeatBy]];
 			}else {
 				[self.editedObject setTaskRepeatOptions:@""];
 			}

@@ -166,7 +166,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 
 	sunLabel=[[UILabel alloc] initWithFrame:CGRectMake(offsetX + 2, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	sunLabel.backgroundColor=[UIColor clearColor];
-	sunLabel.text=[NSString stringWithFormat:@"%d", self.sunMonthDay];
+    sunLabel.text=[NSString stringWithFormat:@"%ld", (long)self.sunMonthDay];
 	sunLabel.font=[UIFont boldSystemFontOfSize:14];
 	sunLabel.textColor=[UIColor whiteColor];
 	sunLabel.textAlignment=NSTextAlignmentCenter;
@@ -176,7 +176,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 	
 	monLabel=[[UILabel alloc] initWithFrame:CGRectMake(cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	monLabel.backgroundColor=[UIColor clearColor];
-	monLabel.text=[NSString stringWithFormat:@"%d", self.monMonthDay];
+    monLabel.text=[NSString stringWithFormat:@"%ld", (long)self.monMonthDay];
 	monLabel.font=[UIFont boldSystemFontOfSize:14];
 	monLabel.textColor=[UIColor whiteColor];
 	monLabel.textAlignment=NSTextAlignmentCenter;
@@ -187,7 +187,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 	tueLabel=[[UILabel alloc] initWithFrame:CGRectMake(2*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	tueLabel.backgroundColor=[UIColor clearColor];
-	tueLabel.text=[NSString stringWithFormat:@"%d", self.tueMonthDay];
+    tueLabel.text=[NSString stringWithFormat:@"%ld", (long)self.tueMonthDay];
 	tueLabel.font=[UIFont boldSystemFontOfSize:14];
 	tueLabel.textColor=[UIColor whiteColor];
 	tueLabel.textAlignment=NSTextAlignmentCenter;
@@ -211,7 +211,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 	thuLabel=[[UILabel alloc] initWithFrame:CGRectMake(4*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	thuLabel.backgroundColor=[UIColor clearColor];
-	thuLabel.text=[NSString stringWithFormat:@"%d", self.thuMonthDay];
+    thuLabel.text=[NSString stringWithFormat:@"%ld", (long)self.thuMonthDay];
 	thuLabel.font=[UIFont boldSystemFontOfSize:14];
 	thuLabel.textColor=[UIColor whiteColor];
 	thuLabel.textAlignment=NSTextAlignmentCenter;
@@ -222,7 +222,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 	friLabel=[[UILabel alloc] initWithFrame:CGRectMake(5*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	friLabel.backgroundColor=[UIColor clearColor];
-	friLabel.text=[NSString stringWithFormat:@"%d", self.friMonthDay];
+    friLabel.text=[NSString stringWithFormat:@"%ld", (long)self.friMonthDay];
 	friLabel.font=[UIFont boldSystemFontOfSize:14];
 	friLabel.textColor=[UIColor whiteColor];
 	friLabel.textAlignment=NSTextAlignmentCenter;
@@ -233,7 +233,7 @@ extern NSString *actionMakesOthersPassDeadlinesText;
 	satLabel=[[UILabel alloc] initWithFrame:CGRectMake(6*cellWidth + 2 + offsetX, 2, cellWidth, MONTH_TITLE_HEIGHT)];
 	
 	satLabel.backgroundColor=[UIColor clearColor];
-	satLabel.text=[NSString stringWithFormat:@"%d", self.satMonthDay];
+    satLabel.text=[NSString stringWithFormat:@"%ld", (long)self.satMonthDay];
 	satLabel.font=[UIFont boldSystemFontOfSize:14];
 	satLabel.textColor=[UIColor whiteColor];
 	satLabel.textAlignment=NSTextAlignmentCenter;
@@ -1195,9 +1195,9 @@ exitSave:
 			}
 			
 			if(taskPin==1){
-					projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[sunList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[sunList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[sunList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[sunList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1224,9 +1224,9 @@ exitSave:
 			
 			
 			if(taskPin==1){
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[monList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[monList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[monList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[monList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1253,9 +1253,9 @@ exitSave:
 			
 			
 			if(taskPin==1){
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[tueList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[tueList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[tueList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[tueList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text =@"";
@@ -1281,9 +1281,9 @@ exitSave:
 			}			
 			
 			if(taskPin==1){
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[wedList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[wedList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[wedList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[wedList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1309,9 +1309,9 @@ exitSave:
 			}
 			
 			if(taskPin==1){
-					projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[thuList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[thuList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[thuList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[thuList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1337,9 +1337,9 @@ exitSave:
 			}
 			
 			if(taskPin==1){
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[friList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[friList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[friList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[friList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1365,9 +1365,9 @@ exitSave:
 			}
 			
 			if(taskPin==1){
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%d.png",[[satList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"circle%ld.png",[[satList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}else {
-				projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%d.png",[[satList objectAtIndex:indexPath.row] taskProject]+1]]];
+                projType=[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"poly%ld.png",[[satList objectAtIndex:indexPath.row] taskProject]+1]]];
 			}
 		}else {
 			cell.taskName.text=@"";
@@ -1780,9 +1780,9 @@ exitSave:
 	monLabel.text=[NSString stringWithFormat:@"%@  \n %d   ", monText,self.monMonthDay];
 	tueLabel.text=[NSString stringWithFormat:@"%@  \n %d   ", tueText,self.tueMonthDay];
 */
-	sunLabel.text=[NSString stringWithFormat:@"%d", self.sunMonthDay];
-	monLabel.text=[NSString stringWithFormat:@"%d", self.monMonthDay];
-	tueLabel.text=[NSString stringWithFormat:@"%d", self.tueMonthDay];
+    sunLabel.text=[NSString stringWithFormat:@"%ld", (long)self.sunMonthDay];
+    monLabel.text=[NSString stringWithFormat:@"%ld", (long)self.monMonthDay];
+    tueLabel.text=[NSString stringWithFormat:@"%ld", (long)self.tueMonthDay];
 	
 	//[monthNameButton setTitle:[self.monthName uppercaseString] forState:UIControlStateNormal];
 	[monthNameButton setTitle:self.monthName forState:UIControlStateNormal];
@@ -1791,9 +1791,9 @@ exitSave:
 	friLabel.text=[NSString stringWithFormat:@"%@   \n  %d     ", friText,self.friMonthDay];
 	satLabel.text=[NSString stringWithFormat:@"%@        \n  %d          ", satText,self.satMonthDay];
 */
-	thuLabel.text=[NSString stringWithFormat:@"%d", self.thuMonthDay];
-	friLabel.text=[NSString stringWithFormat:@"%d", self.friMonthDay];
-	satLabel.text=[NSString stringWithFormat:@"%d", self.satMonthDay];
+    thuLabel.text=[NSString stringWithFormat:@"%ld", (long)self.thuMonthDay];
+    friLabel.text=[NSString stringWithFormat:@"%ld", (long)self.friMonthDay];
+    satLabel.text=[NSString stringWithFormat:@"%ld", (long)self.satMonthDay];
 		
 	/******[self refreshClockDuration];*/
 

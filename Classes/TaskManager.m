@@ -355,7 +355,7 @@ exitFound:
 								mainInstance.primaryKey= [App_Delegate addTask:mainInstance];
 							
 							self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-																	   stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",taskKey,mainInstance.taskSynKey,mainInstance.gcalEventId]];
+                                                                       stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)taskKey,mainInstance.taskSynKey,mainInstance.gcalEventId]];
 							[self.currentSetting update];
 							
 							[mainInstance update];
@@ -1739,12 +1739,12 @@ exitWhile:
 								if(instance.primaryKey>-2 && instance.parentRepeatInstance==mainInstance.primaryKey){
 									if(![instance.gcalEventId isEqualToString:@""]){
 										self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-																				   stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
+                                                                                   stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
 										[self.currentSetting update];	
 									}
 									
 									if (instance.toodledoID>0) {
-										self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",instance.toodledoID];
+                                        self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)instance.toodledoID];
 										[self.currentSetting update];
 									}
 									
@@ -1775,12 +1775,12 @@ exitWhile:
 									
 									if(![instance.gcalEventId isEqualToString:@""]){
 										self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-																				   stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
+                                                                                   stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
 										[self.currentSetting update];	
 									}
 									
 									   if (instance.toodledoID>0) {
-										   self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",instance.toodledoID];
+                                           self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)instance.toodledoID];
 										   [self.currentSetting update];
 									   }
                                        
@@ -1857,12 +1857,12 @@ exitWhile:
 									
                                        if(![instance.gcalEventId isEqualToString:@""]){
                                            self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-                                                                                      stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
+                                                                                      stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)instance.primaryKey,instance.taskSynKey,instance.gcalEventId]];
                                            [self.currentSetting update];	
                                        }
 									
 									   if (instance.toodledoID>0) {
-										   self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",instance.toodledoID];
+                                           self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)instance.toodledoID];
 										   [self.currentSetting update];
 									   }
 									   
@@ -2129,12 +2129,12 @@ exitUpdate:
 			//update deleted Item to setting for Syncing
 			if(!instance.isDeletedFromGCal){
 				self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-													   stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",mainInstance.primaryKey,mainInstance.taskSynKey,mainInstance.gcalEventId]];
+                                                           stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)mainInstance.primaryKey,mainInstance.taskSynKey,mainInstance.gcalEventId]];
 				[self.currentSetting update];
 			}
 			
 			if (instance.toodledoID>0) {
-				self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",instance.toodledoID];
+                self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)instance.toodledoID];
 				[self.currentSetting update];
 			}
 			
@@ -2308,10 +2308,10 @@ exitUpdate:
 				if(!taskTmp.isDeletedFromGCal && deleteFromDB){
 					//update deleted Item to setting for Syncing
 					self.currentSetting.deleteItemsInTaskList=[self.currentSetting.deleteItemsInTaskList 
-															   stringByAppendingString:[NSString stringWithFormat:@"$!$%d|%f|%@",taskTmp.primaryKey,taskTmp.taskSynKey,taskTmp.gcalEventId]];
+                                                               stringByAppendingString:[NSString stringWithFormat:@"$!$%ld|%f|%@",(long)taskTmp.primaryKey,taskTmp.taskSynKey,taskTmp.gcalEventId]];
 					
 					if (taskTmp.toodledoID>0) {
-						self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%d",taskTmp.toodledoID];
+                        self.currentSetting.toodledoDeletedTasks=[self.currentSetting.toodledoDeletedTasks stringByAppendingFormat:@"|%ld",(long)taskTmp.toodledoID];
 					}
                     
                     if ([taskTmp.iCalIdentifier length]>0) {
@@ -8222,7 +8222,7 @@ exitWhile:
 	for (UILocalNotification *notif in locNotif) {
 		NSDictionary *dict=[notif userInfo];
 		
-		if ([[dict objectForKey:@"taskId"] isEqualToString:[NSString stringWithFormat:@"%d",task.primaryKey]]) {
+        if ([[dict objectForKey:@"taskId"] isEqualToString:[NSString stringWithFormat:@"%ld",(long)task.primaryKey]]) {
 			[app cancelLocalNotification:notif];
 			[oldNotifications removeObject:notif];
 			break;
@@ -8242,7 +8242,7 @@ exitWhile:
 		alarm.soundName = @"alarmsound.caf"; 
 		alarm.alertBody = task.taskName;
 		
-		NSDictionary *infoDict = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%d",task.primaryKey],@"taskId",nil];
+        NSDictionary *infoDict = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%ld",(long)task.primaryKey],@"taskId",nil];
 		alarm.userInfo = infoDict;
 		[app scheduleLocalNotification:alarm];
 	}
@@ -8268,7 +8268,7 @@ exitWhile:
 		for (UILocalNotification *notif in locNotif) {
 			NSDictionary *dict=[notif userInfo];
 			
-			if ([[dict objectForKey:@"taskId"] isEqualToString:[NSString stringWithFormat:@"%d",task.primaryKey]]) {
+            if ([[dict objectForKey:@"taskId"] isEqualToString:[NSString stringWithFormat:@"%ld",(long)task.primaryKey]]) {
 				if ([notif.fireDate compare:[NSDate date]]==NSOrderedDescending) {
 					//no need to update an active notification
 					mayBeSnooze=YES;
@@ -8361,7 +8361,7 @@ exitWhile:
 					alarm.soundName = @"alarmsound.caf"; 
 					alarm.alertBody = task.taskName;
 					
-					NSDictionary *infoDict = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%d",task.primaryKey],@"taskId",nil];
+                    NSDictionary *infoDict = [NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"%ld",(long)task.primaryKey],@"taskId",nil];
 					alarm.userInfo = infoDict;
 					[app scheduleLocalNotification:alarm];
 				}
